@@ -5,7 +5,8 @@
 clear all; close all; clc; 
 
 %% -- UI --------------------------------------------------------------- %%
-% filename_and_path = 'U:\Project\rawData\20181207_transImpOut_firstTry.CSV';
+filename_and_path = '..\Measurements\rawData\20181207_transImpOut_firstTry.CSV';
+figTitle = 'first try';
 
 %% "20181208_transImpOut_long.CSV" (Messung nach transimpedanz)
 % recording after transimpedant (transimp out)
@@ -47,8 +48,8 @@ clear all; close all; clc;
 % filename_and_path = 'U:\Project\rawData\20181208_lp_notch_ampl46_hp_lp.CSV'; 
 % figTitle = strrep('20181208_lp_notch_ampl46_hp_lp','_',' ');
 
-filename_and_path = 'U:\Project\rawData\20181208_lp_notch_ampl46_hp_lp_2.CSV'; 
-figTitle = strrep('20181208_lp_notch_ampl46_hp_lp_2','_',' ');
+% filename_and_path = 'U:\Project\rawData\20181208_lp_notch_ampl46_hp_lp_2.CSV'; 
+% figTitle = strrep('20181208_lp_notch_ampl46_hp_lp_2','_',' ');
 
 %% "20181208_lp_notch_ampl_hp_lp6Hz.CSV" (Messung nach notch filter mit lop-pass fc = 4Hz nach amplifier nach high-pass fc = 0.48Hz nach low-pass fc = 6Hz"
 % filename_and_path = 'U:\Project\rawData\20181208_lp_notch_ampl_hp_lp_lp.CSV'; 
@@ -87,26 +88,30 @@ xlabel('Hz')
 yLP_6Hz = data;
 
 %% design notch filter 48Hz bw=200
-% % q = 35; % quality factor
-% wo = 50./fsNy;  
-% % bw = wo/q;
-% bw = 200./fsNy;
-% [bN,aN] = iirnotch(wo,bw);
-% 
-% figure; freqz(bN,bN)
-% yNotch_50Hz = filter(bN,aN,yLP_6Hz);
+% q = 35; % quality factor
+wo = [50./fsNy];  
+% bw = wo/q;
+bw = 0.0001./fsNy;
+ 
+Wn = [max(wo-bw/2,0.00001) min(wo+bw/2,0.99999)];
+[bN, aN] = cheby1(1,3,Wn,'stop');
 
-yNotch_50Hz = yLP_6Hz;
+% [bN,aN] = iirnotch(wo,bw);
+
+figure; freqz(bN,bN)
+yNotch_50Hz = filter(bN,aN,yLP_6Hz);
+
+% yNotch_50Hz = yLP_6Hz;
 
 %% design high pass 0.8 Hz
-% N = 1;
-% Wn = 0.8/fsNy;
-% [bHP,aHP] = butter(N,Wn,'high');
-% 
-% figure; freqz(bHP,aHP)
-% yHP_0_8Hz = filter(bHP,aHP,yNotch_50Hz);
+N = 1;
+Wn = 0.8/fsNy;
+[bHP,aHP] = butter(N,Wn,'high');
 
-yHP_0_8Hz = yNotch_50Hz;
+figure; freqz(bHP,aHP)
+yHP_0_8Hz = filter(bHP,aHP,yNotch_50Hz);
+
+% yHP_0_8Hz = yNotch_50Hz;
 
 %% filter signal
 figure; 

@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for Oximeter
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -251,39 +251,39 @@ Variation1=Designator=R20|UniqueId=\DPKCFTEY|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=SAP_PRT_PR_REV
+Name=Adress1
 Value=
 
 [Parameter2]
-Name=SAP_PRT_PR
+Name=Adress2
 Value=
 
 [Parameter3]
-Name=SAP_PRT_NAME
-Value=Oximeter
+Name=CompanyName
+Value=
 
 [Parameter4]
-Name=SAP_DSH_VER
+Name=CompanyName2
 Value=
 
 [Parameter5]
-Name=SAP_DSH_REV
+Name=SAP_ASM_PRPO
 Value=
 
 [Parameter6]
-Name=SAP_DSH
+Name=SAP_ASM_PRPO_REV
 Value=
 
 [Parameter7]
-Name=SAP_DPD
+Name=SAP_DGJ
 Value=
 
 [Parameter8]
-Name=SAP_DOJ
+Name=SAP_DGJ_VER
 Value=
 
 [Parameter9]
-Name=SAP_DMD_VER
+Name=SAP_DMD
 Value=
 
 [Parameter10]
@@ -291,39 +291,39 @@ Name=SAP_DMD_REV
 Value=
 
 [Parameter11]
-Name=SAP_DMD
+Name=SAP_DMD_VER
 Value=
 
 [Parameter12]
-Name=SAP_DGJ_VER
+Name=SAP_DOJ
 Value=
 
 [Parameter13]
-Name=SAP_DGJ
+Name=SAP_DPD
 Value=
 
 [Parameter14]
-Name=SAP_ASM_PRPO_REV
+Name=SAP_DSH
 Value=
 
 [Parameter15]
-Name=SAP_ASM_PRPO
+Name=SAP_DSH_REV
 Value=
 
 [Parameter16]
-Name=CompanyName2
+Name=SAP_DSH_VER
 Value=
 
 [Parameter17]
-Name=CompanyName
-Value=
+Name=SAP_PRT_NAME
+Value=Oximeter
 
 [Parameter18]
-Name=Adress2
+Name=SAP_PRT_PR
 Value=
 
 [Parameter19]
-Name=Adress1
+Name=SAP_PRT_PR_REV
 Value=
 
 [Configuration1]
@@ -372,7 +372,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for Oximeter
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -671,7 +671,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-9020CDW Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -679,6 +679,18 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=Filter
+Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1423|FormHeight=989|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Comment=67|Description=67|Designator=67|Footprint=67|Manufacturer Part Nr=67|Quantity=67
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=

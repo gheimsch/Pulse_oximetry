@@ -1,1244 +1,953 @@
-=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2018.12.27 17:02:23 =~=~=~=~=~=~=~=~=~=~=~=
-3,
-Value is [mV],11604,
-Value is [mV],11604,
-Value is [mV],11333,
-Value is [mV],11398,
-Value is [mV],11655,
-Value is [mV],11462,
-Value is [mV],11282,
-Value is [mV],11410,
-Value is [mV],11578,
-Value is [mV],11514,
-Value is [mV],11282,
-Value is [mV],11668,
-Value is [mV],11720,
-Value is [mV],11681,
-Value is [mV],11552,
-Value is [mV],11372,
-Value is [mV],11204,
-Value is [mV],11514,
-Value is [mV],11256,
-Value is [mV],11436,
-Value is [mV],11926,
-Value is [mV],11243,
-Value is [mV],11436,
-Value is [mV],11952,
-Value is [mV],11978,
-Value is [mV],11230,
-Value is [mV],11617,
-Value is [mV],11565,
-Value is [mV],11294,
-Value is [mV],11617,
-Value is [mV],11617,
-Value is [mV],11307,
-Value is [mV],11823,
-Value is [mV],11191,
-Value is [mV],11913,
-Value is [mV],11514,
-Value is [mV],11294,
-Value is [mV],11436,
-Value is [mV],11539,
-Value is [mV],11565,
-Value is [mV],11410,
-Value is [mV],11294,
-Value is [mV],11410,
-Value is [mV],11191,
-Value is [mV],11462,
-Value is [mV],11269,
-Value is [mV],11346,
-Value is [mV],11514,
-Value is [mV],11591,
-Value is [mV],11539,
-Value is [mV],11230,
-Value is [mV],11565,
-Value is [mV],11681,
-Value is [mV],11681,
-Value is [mV],11269,
-Value is [mV],11256,
-Value is [mV],11707,
-Value is [mV],11372,
-Value is [mV],11604,
-Value is [mV],11746,
-Value is [mV],11320,
-Value is [mV],11655,
-Value is [mV],11565,
-Value is [mV],11655,
-Value is [mV],11436,
-Value is [mV],11565,
-Value is [mV],11243,
-Value is [mV],11191,
-Value is [mV],11862,
-Value is [mV],11565,
-Value is [mV],11436,
-Value is [mV],11591,
-Value is [mV],11875,
-Value is [mV],11797,
-Value is [mV],11398,
-Value is [mV],11333,
-Value is [mV],11243,
-Value is [mV],11875,
-Value is [mV],11475,
-Value is [mV],11565,
-Value is [mV],11436,
-Value is [mV],11552,
-Value is [mV],11565,
-Value is [mV],11385,
-Value is [mV],11733,
-Value is [mV],11746,
-Value is [mV],11836,
-Value is [mV],11488,
-Value is [mV],11449,
-Value is [mV],11630,
-Value is [mV],11436,
-Value is [mV],11643,
-Value is [mV],11797,
-Value is [mV],11462,
-Value is [mV],11333,
-Value is [mV],11166,
-Value is [mV],11655,
-Value is [mV],11913,
-Value is [mV],11565,
-Value is [mV],11333,
-Value is [mV],11591,
-Value is [mV],11617,
-Value is [mV],11759,
-Value is [mV],11294,
-Value is [mV],11591,
-Value is [mV],11462,
-Value is [mV],11539,
-Value is [mV],11436,
-Value is [mV],11514,
-Value is [mV],11527,
-Value is [mV],11539,
-Value is [mV],11410,
-Value is [mV],11204,
-Value is [mV],11243,
-Value is [mV],11475,
-Value is [mV],11539,
-Value is [mV],11127,
-Value is [mV],11862,
-Valu11759,
-Value is [mV],11385,
-Value is [mV],11398,
-Value is [mV],11617,
-Value is [mV],11565,
-Value is [mV],11475,
-Value mV],11617,
-Value is [mV],11565,
-Value is [mV],11475,
-Value mV],11617,
-Value is [mV],11565,
-Value is [mV],11475,
-Value mV],11617,
-Value is [mV],11565,
-Value is [mV],11475,
-Value mV],11617,
-Value is [mV],11565,
-Value is [mV],11475,
-Value mV],11617,
-Value is [mV],11565,
-Value is [mV],11475,
-Value mV],11617,
-Value is [mV],11565,
-Value is [mV],11475,
-Value mV],11617,
-Value is [mV],11565,
-Value is [mV],11475,
-Value is [mV],11359,
-Value is [mV],11256,
-Value is [mV],12390,
-Value is [mV],11114,
-Value is [mV],11514,
-Value is [mV],11501,
-Value is [mV],11191,
-Value is [mV],11913,
-Value is [mV],11385,
-Value is [mV],11926,
-Value is [mV],11810,
-Value is [mV],11965,
-Value is [mV],11269,
-Value is [mV],11733,
-Value is [mV],11539,
-Value is [mV],11617,
-Value is [mV],11449,
-Value is [mV],11746,
-Value is [mV],11488,
-Value is [mV],11772,
-Value is [mV],11462,
-Value is [mV],11604,
-Value is [mV],11488,
-Value is [mV],11372,
-Value is [mV],11720,
-Value is [mV],11539,
-Value is [mV],11655,
-Value is [mV],11694,
-Value is [mV],11462,
-Value is [mV],11539,
-Value is [mV],11514,
-Value is [mV],11630,
-Value is [mV],11359,
-Value is [mV],11488,
-Value is [mV],11604,
-Value is [mV],11578,
-Value is [mV],11617,
-Value is [mV],11643,
-Value is [mV],11127,
-Value is [mV],11681,
-Value is [mV],11797,
-Value is [mV],11720,
-Value is [mV],11823,
-Value is [mV],11784,
-Value is [mV],11759,
-Value is [mV],11501,
-Value is [mV],11849,
-Value is [mV],11062,
-Value is [mV],11333,
-Value is [mV],11462,
-Value is [mV],11423,
-Value is [mV],11836,
-Value is [mV],11243,
-Value is [mV],11410,
-Value is [mV],11772,
-Value is [mV],11372,
-Value is [mV],11114,
-Value is [mV],11668,
-Value is [mV],11398,
-Value is [mV],11539,
-Value is [mV],11617,
-Value is [mV],11217,
-Value is [mV],11320,
-Value is [mV],11320,
-Value is [mV],11423,
-Value is [mV],11514,
-Value is [mV],11359,
-Value is [mV],11604,
-Value is [mV],11410,
-Value is [mV],11488,
-Value is [mV],11178,
-Value is [mV],11630,
-Value is [mV],11359,
-Value is [mV],11849,
-Value is [mV],11127,
-Value is [mV],11617,
-Value is [mV],11475,
-Value is [mV],11423,
-Value is [mV],11759,
-Value is [mV],11681,
-Value is [mV],11385,
-Value is [mV],11501,
-Value is [mV],11191,
-Value is [mV],11552,
-Value is [mV],11888,
-Value is [mV],11372,
-Value is [mV],11888,
-Value is [mV],11604,
-Value is [mV],11681,
-Value is [mV],11385,
-Value is [mV],11398,
-Value is [mV],11514,
-Value is [mV],11707,
-Value is [mV],11643,
-Value is [mV],11359,
-Value is [mV],11178,
-Value is [mV],11527,
-Value is [mV],11436,
-Value is [mV],11410,
-Value is [mV],11849,
-Value is [mV],11372,
-Value is [mV],11746,
-Value is [mV],11552,
-Value is [mV],11630,
-Value is [mV],11514,
-Value is [mV],11359,
-Value is [mV],11797,
-Value is [mV],11178,
-Value is [mV],11643,
-Value is [mV],11746,
-Value is [mV],11410,
-Value is [mV],11668,
-Value is [mV],11514,
-Value is [mV],11720,
-Value is [mV],11630,
-Value is [mV],11707,
-Value is [mV],11346,
-Value is [mV],11578,
-Value is [mV],11643,
-Value is [mV],11475,
-Value is [mV],11514,
-Value is [mV],11462,
-Value is [mV],11772,
-Value is [mV],11127,
-Value is [mV],11578,
-Value is [mV],11746,
-Value is [mV],11772,
-Value is [mV],11900,
-Value is [mV],11643,
-Value is [mV],11320,
-Value is [mV],11385,
-Value is [mV],11385,
-Value is [mV],11230,
-Value is [mV],11578,
-Value is [mV],11591,
-Value is [mV],11578,
-Value is [mV],11114,
-Value is [mV],11501,
-Value is [mV],11307,
-Value is [mV],11849,
-Value is [mV],11501,
-Value is [mV],11423,
-Value is [mV],11823,
-Value is [mV],11333,
-Value is [mV],11565,
-Value is [mV],11875,
-Value is [mV],11643,
-Value is [mV],11552,
-Value is [mV],11759,
-Value is [mV],11282,
-Value is [mV],11282,
-Value is [mV],11514,
-Value is [mV],11475,
-Value is [mV],11449,
-Value is [mV],11282,
-Value is [mV],11668,
-Value is [mV],11823,
-Value is [mV],11436,
-Value is [mV],11720,
-Value is [mV],11127,
-Value is [mV],11784,
-Value is [mV],11398,
-Value is [mV],11243,
-Value is [mV],11759,
-Value is [mV],11436,
-Value is [mV],11488,
-Value is [mV],11436,
-Value is [mV],11578,
-Value is [mV],11746,
-Value is [mV],11333,
-Value is [mV],11527,
-Value is [mV],11694,
-Value is [mV],11655,
-Value is [mV],11307,
-Value is [mV],11604,
-Value is [mV],11759,
-Value is [mV],11204,
-Value is [mV],11475,
-Value is [mV],11630,
-Value is [mV],11191,
-Value is [mV],11398,
-Value is [mV],11385,
-Value is [mV],11823,
-Value is [mV],11256,
-Value is [mV],11707,
-Value is [mV],11784,
-Value is [mV],11204,
-Value is [mV],11926,
-Value is [mV],11810,
-Value is [mV],11759,
-Value is [mV],11759,
-Value is [mV],11875,
-Value is [mV],11488,
-Value is [mV],11849,
-Value is [mV],11552,
-Value is [mV],11475,
-Value is [mV],11797,
-Value is [mV],11900,
-Value is [mV],11694,
-Value is [mV],11320,
-Value is [mV],11707,
-Value is [mV],11475,
-Value is [mV],11269,
-Value is [mV],11307,
-Value is [mV],11475,
-Value is [mV],11643,
-Value is [mV],11256,
-Value is [mV],11668,
-Value is [mV],11294,
-Value is [mV],11604,
-Value is [mV],11655,
-Value is [mV],11449,
-Value is [mV],11320,
-Value is [mV],11294,
-Value is [mV],11694,
-Value is [mV],11243,
-Value is [mV],11746,
-Value is [mV],11320,
-Value is [mV],11243,
-Value is [mV],11655,
-Value is [mV],11462,
-Value is [mV],11436,
-Value is [mV],11797,
-Value is [mV],11836,
-Value is [mV],11333,
-Value is [mV],11797,
-Value is [mV],11062,
-Value is [mV],11643,
-Value is [mV],11681,
-Value is [mV],11436,
-Value is [mV],11900,
-Value is [mV],11501,
-Value is [mV],11269,
-Value is [mV],11436,
-Value is [mV],11140,
-Value is [mV],11527,
-Value is [mV],11862,
-Value is [mV],11823,
-Value is [mV],11140,
-Value is [mV],11720,
-Value is [mV],11720,
-Value is [mV],11578,
-Value is [mV],11436,
-Value is [mV],11565,
-Value is [mV],11552,
-Value is [mV],11875,
-Value is [mV],11862,
-Value is [mV],11810,
-Value is [mV],11617,
-Value is [mV],11655,
-Value is [mV],11514,
-Value is [mV],11810,
-Value is [mV],11772,
-Value is [mV],11862,
-Value is [mV],11668,
-Value is [mV],11230,
-Value is [mV],11475,
-Value is [mV],11423,
-Value is [mV],11333,
-Value is [mV],11875,
-Value is [mV],11423,
-Value is [mV],11410,
-Value is [mV],11539,
-Value is [mV],11307,
-Value is [mV],11410,
-Value is [mV],11849,
-Value is [mV],11527,
-Value is [mV],11759,
-Value is [mV],11488,
-Value is [mV],11436,
-Value is [mV],11398,
-Value is [mV],11552,
-Value is [mV],11462,
-Value is [mV],11269,
-Value is [mV],11707,
-Value is [mV],11707,
-Value is [mV],11617,
-Value is [mV],11655,
-Value is [mV],11591,
-Value is [mV],11166,
-Value is [mV],11204,
-Value is [mV],11810,
-Value is [mV],11630,
-Value is [mV],11269,
-Value is [mV],11243,
-Value is [mV],11501,
-Value is [mV],11385,
-Value is [mV],11346,
-Value is [mV],11617,
-Value is [mV],11849,
-Value is [mV],11320,
-Value is [mV],11178,
-Value is [mV],11694,
-Value is [mV],11372,
-Value is [mV],11501,
-Value is [mV],11630,
-Value is [mV],11746,
-Value is [mV],11423,
-Value is [mV],11565,
-Value is [mV],11539,
-Value is [mV],11539,
-Value is [mV],11849,
-Value is [mV],11423,
-Value is [mV],11797,
-Value is [mV],11668,
-Value is [mV],11759,
-Value is [mV],11166,
-Value is [mV],11539,
-Value is [mV],11514,
-Value is [mV],11578,
-Value is [mV],11088,
-Value is [mV],11759,
-Value is [mV],11372,
-Value is [mV],11578,
-Value is [mV],11436,
-Value is [mV],11410,
-Value is [mV],11836,
-Value is [mV],11552,
-Value is [mV],11720,
-Value is [mV],11772,
-Value is [mV],11617,
-Value is [mV],11862,
-Value is [mV],11423,
-Value is [mV],11307,
-Value is [mV],11759,
-Value is [mV],11578,
-Value is [mV],11681,
-Value is [mV],11475,
-Value is [mV],11333,
-Value is [mV],11759,
-Value is [mV],11385,
-Value is [mV],11178,
-Value is [mV],11668,
-Value is [mV],11591,
-Value is [mV],11630,
-Value is [mV],11759,
-Value is [mV],11333,
-Value is [mV],11565,
-Value is [mV],11746,
-Value is [mV],11501,
-Value is [mV],11488,
-Value is [mV],11359,
-Value is [mV],11269,
-Value is [mV],11475,
-Value is [mV],11849,
-Value is [mV],11372,
-Value is [mV],11759,
-Value is [mV],11565,
-Value is [mV],11436,
-Value is [mV],11475,
-Value is [mV],11372,
-Value is [mV],11269,
-Value is [mV],11475,
-Value is [mV],11153,
-Value is [mV],11913,
-Value is [mV],11591,
-Value is [mV],11655,
-Value is [mV],11539,
-Value is [mV],11539,
-Value is [mV],11462,
-Value is [mV],11372,
-Value is [mV],11862,
-Value is [mV],11140,
-Value is [mV],11385,
-Value is [mV],11668,
-Value is [mV],11462,
-Value is [mV],11256,
-Value is [mV],11178,
-Value is [mV],11617,
-Value is [mV],11475,
-Value is [mV],11565,
-Value is [mV],11423,
-Value is [mV],11913,
-Value is [mV],11604,
-Value is [mV],11127,
-Value is [mV],11720,
-Value is [mV],11862,
-Value is [mV],11269,
-Value is [mV],11410,
-Value is [mV],11617,
-Value is [mV],11320,
-Value is [mV],11320,
-Value is [mV],11900,
-Value is [mV],11707,
-Value is [mV],11488,
-Value is [mV],11591,
-Value is [mV],11230,
-Value is [mV],11462,
-Value is [mV],11294,
-Value is [mV],11707,
-Value is [mV],11681,
-Value is [mV],11475,
-Value is [mV],11539,
-Value is [mV],11333,
-Value is [mV],11153,
-Value is [mV],11849,
-Value is [mV],11888,
-Value is [mV],11823,
-Value is [mV],11166,
-Value is [mV],11643,
-Value is [mV],11501,
-Value is [mV],11707,
-Value is [mV],11294,
-Value is [mV],11385,
-Value is [mV],11269,
-Value is [mV],11346,
-Value is [mV],11204,
-Value is [mV],11282,
-Value is [mV],11836,
-Value is [mV],11436,
-Value is [mV],11140,
-Value is [mV],11436,
-Value is [mV],11733,
-Value is [mV],11655,
-Value is [mV],11398,
-Value is [mV],11333,
-Value is [mV],11449,
-Value is [mV],11784,
-Value is [mV],11578,
-Value is [mV],11578,
-Value is [mV],11410,
-Value is [mV],11385,
-Value is [mV],11539,
-Value is [mV],11630,
-Value is [mV],11759,
-Value is [mV],11604,
-Value is [mV],11475,
-Value is [mV],11178,
-Value is [mV],11539,
-Value is [mV],11630,
-Value is [mV],11630,
-Value is [mV],11359,
-Value is [mV],11552,
-Value is [mV],11294,
-Value is [mV],11900,
-Value is [mV],11359,
-Value is [mV],11617,
-Value is [mV],11320,
-Value is [mV],11410,
-Value is [mV],11333,
-Value is [mV],11707,
-Value is [mV],11552,
-Value is [mV],11707,
-Value is [mV],11333,
-Value is [mV],11539,
-Value is [mV],11630,
-Value is [mV],11449,
-Value is [mV],11166,
-Value is [mV],11655,
-Value is [mV],11720,
-Value is [mV],11282,
-Value is [mV],11668,
-Value is [mV],11178,
-Value is [mV],11836,
-Value is [mV],11488,
-Value is [mV],11733,
-Value is [mV],11578,
-Value is [mV],11385,
-Value is [mV],11501,
-Value is [mV],11333,
-Value is [mV],11359,
-Value is [mV],11797,
-Value is [mV],11759,
-Value is [mV],11591,
-Value is [mV],11333,
-Value is [mV],11398,
-Value is [mV],11320,
-Value is [mV],11385,
-Value is [mV],11243,
-Value is [mV],11385,
-Value is [mV],11759,
-Value is [mV],11488,
-Value is [mV],11604,
-Value is [mV],11810,
-Value is [mV],11862,
-Value is [mV],11475,
-Value is [mV],11501,
-Value is [mV],11552,
-Value is [mV],11346,
-Value is [mV],11243,
-Value is [mV],11823,
-Value is [mV],11539,
-Value is [mV],11501,
-Value is [mV],11965,
-Value is [mV],11307,
-Value is [mV],11630,
-Value is [mV],11488,
-Value is [mV],11256,
-Value is [mV],11668,
-Value is [mV],11655,
-Value is [mV],11501,
-Value is [mV],11398,
-Value is [mV],11630,
-Value is [mV],11565,
-Value is [mV],11423,
-Value is [mV],11694,
-Value is [mV],11591,
-Value is [mV],11681,
-Value is [mV],11462,
-Value is [mV],11333,
-Value is [mV],11282,
-Value is [mV],11604,
-Value is [mV],11385,
-Value is [mV],11643,
-Value is [mV],11784,
-Value is [mV],11630,
-Value is [mV],11797,
-Value is [mV],11591,
-Value is [mV],11178,
-Value is [mV],11256,
-Value is [mV],11565,
-Value is [mV],11436,
-Value is [mV],11823,
-Value is [mV],11501,
-Value is [mV],11359,
-Value is [mV],11849,
-Value is [mV],11333,
-Value is [mV],11410,
-Value is [mV],11256,
-Value is [mV],11320,
-Value is [mV],11514,
-Value is [mV],11733,
-Value is [mV],11514,
-Value is [mV],11746,
-Value is [mV],11681,
-Value is [mV],11655,
-Value is [mV],11475,
-Value is [mV],11578,
-Value is [mV],11423,
-Value is [mV],11630,
-Value is [mV],11617,
-Value is [mV],11423,
-Value is [mV],11578,
-Value is [mV],11475,
-Value is [mV],11668,
-Value is [mV],11707,
-Value is [mV],11475,
-Value is [mV],11514,
-Value is [mV],11810,
-Value is [mV],11733,
-Value is [mV],11243,
-Value is [mV],11875,
-Value is [mV],11256,
-Value is [mV],11578,
-Value is [mV],11759,
-Value is [mV],11346,
-Value is [mV],11256,
-Value is [mV],11668,
-Value is [mV],11759,
-Value is [mV],11320,
-Value is [mV],11707,
-Value is [mV],11630,
-Value is [mV],11746,
-Value is [mV],11488,
-Value is [mV],11527,
-Value is [mV],11398,
-Value is [mV],11462,
-Value is [mV],11746,
-Value is [mV],11178,
-Value is [mV],11153,
-Value is [mV],11359,
-Value is [mV],11733,
-Value is [mV],11514,
-Value is [mV],11604,
-Value is [mV],11565,
-Value is [mV],11178,
-Value is [mV],11823,
-Value is [mV],11320,
-Value is [mV],11527,
-Value is [mV],11294,
-Value is [mV],11101,
-Value is [mV],11204,
-Value is [mV],11204,
-Value is [mV],11385,
-Value is [mV],11539,
-Value is [mV],11359,
-Value is [mV],11191,
-Value is [mV],11359,
-Value is [mV],11668,
-Value is [mV],11398,
-Value is [mV],11475,
-Value is [mV],11643,
-Value is [mV],11307,
-Value is [mV],11539,
-Value is [mV],11655,
-Value is [mV],11552,
-Value is [mV],11797,
-Value is [mV],11385,
-Value is [mV],11655,
-Value is [mV],11488,
-Value is [mV],11204,
-Value is [mV],11707,
-Value is [mV],11797,
-Value is [mV],11810,
-Value is [mV],11604,
-Value is [mV],11617,
-Value is [mV],11913,
-Value is [mV],11359,
-Value is [mV],11617,
-Value is [mV],11449,
-Value is [mV],11655,
-Value is [mV],11256,
-Value is [mV],11423,
-Value is [mV],11449,
-Value is [mV],11320,
-Value is [mV],11501,
-Value is [mV],11385,
-Value is [mV],11423,
-Value is [mV],11926,
-Value is [mV],11604,
-Value is [mV],11539,
-Value is [mV],11488,
-Value is [mV],11166,
-Value is [mV],11849,
-Value is [mV],11746,
-Value is [mV],11746,
-Value is [mV],11643,
-Value is [mV],11810,
-Value is [mV],11462,
-Value is [mV],11178,
-Value is [mV],11707,
-Value is [mV],11436,
-Value is [mV],11488,
-Value is [mV],11784,
-Value is [mV],11436,
-Value is [mV],11514,
-Value is [mV],11462,
-Value is [mV],11836,
-Value is [mV],11681,
-Value is [mV],11836,
-Value is [mV],11166,
-Value is [mV],11539,
-Value is [mV],11153,
-Value is [mV],11655,
-Value is [mV],11539,
-Value is [mV],11643,
-Value is [mV],11655,
-Value is [mV],11733,
-Value is [mV],11269,
-Value is [mV],11256,
-Value is [mV],11501,
-Value is [mV],11423,
-Value is [mV],11294,
-Value is [mV],11514,
-Value is [mV],11604,
-Value is [mV],11436,
-Value is [mV],11488,
-Value is [mV],11939,
-Value is [mV],11565,
-Value is [mV],11694,
-Value is [mV],11398,
-Value is [mV],11900,
-Value is [mV],11372,
-Value is [mV],11256,
-Value is [mV],11733,
-Value is [mV],11501,
-Value is [mV],11862,
-Value is [mV],11230,
-Value is [mV],11514,
-Value is [mV],11926,
-Value is [mV],11784,
-Value is [mV],11707,
-Value is [mV],11320,
-Value is [mV],11385,
-Value is [mV],11849,
-Value is [mV],11668,
-Value is [mV],11475,
-Value is [mV],11552,
-Value is [mV],11772,
-Value is [mV],11372,
-Value is [mV],11359,
-Value is [mV],11617,
-Value is [mV],11552,
-Value is [mV],11307,
-Value is [mV],11643,
-Value is [mV],11282,
-Value is [mV],11333,
-Value is [mV],11527,
-Value is [mV],11630,
-Value is [mV],11501,
-Value is [mV],11359,
-Value is [mV],11655,
-Value is [mV],11655,
-Value is [mV],11294,
-Value is [mV],11823,
-Value is [mV],11346,
-Value is [mV],11359,
-Value is [mV],11191,
-Value is [mV],11539,
-Value is [mV],11372,
-Value is [mV],11230,
-Value is [mV],11591,
-Value is [mV],11475,
-Value is [mV],11282,
-Value is [mV],11410,
-Value is [mV],11772,
-Value is [mV],11475,
-Value is [mV],11488,
-Value is [mV],11501,
-Value is [mV],11630,
-Value is [mV],11449,
-Value is [mV],11398,
-Value is [mV],11681,
-Value is [mV],11655,
-Value is [mV],11630,
-Value is [mV],11591,
-Value is [mV],11462,
-Value is [mV],11294,
-Value is [mV],11475,
-Value is [mV],11294,
-Value is [mV],11694,
-Value is [mV],11539,
-Value is [mV],11746,
-Value is [mV],11294,
-Value is [mV],11372,
-Value is [mV],11900,
-Value is [mV],11655,
-Value is [mV],11604,
-Value is [mV],11462,
-Value is [mV],11823,
-Value is [mV],11630,
-Value is [mV],11243,
-Value is [mV],11527,
-Value is [mV],11191,
-Value is [mV],11436,
-Value is [mV],11539,
-Value is [mV],11282,
-Value is [mV],11643,
-Value is [mV],11643,
-Value is [mV],11797,
-Value is [mV],11359,
-Value is [mV],11527,
-Value is [mV],11372,
-Value is [mV],11707,
-Value is [mV],11294,
-Value is [mV],11127,
-Value is [mV],11436,
-Value is [mV],11604,
-Value is [mV],11604,
-Value is [mV],11449,
-Value is [mV],11385,
-Value is [mV],11578,
-Value is [mV],11436,
-Value is [mV],11320,
-Value is [mV],11436,
-Value is [mV],11643,
-Value is [mV],11836,
-Value is [mV],11372,
-Value is [mV],11398,
-Value is [mV],11462,
-Value is [mV],11307,
-Value is [mV],11475,
-Value is [mV],11501,
-Value is [mV],11333,
-Value is [mV],11720,
-Value is [mV],11372,
-Value is [mV],11630,
-Value is [mV],11784,
-Value is [mV],11578,
-Value is [mV],11256,
-Value is [mV],11823,
-Value is [mV],11643,
-Value is [mV],11191,
-Value is [mV],11166,
-Value is [mV],11049,
-Value is [mV],11552,
-Value is [mV],11320,
-Value is [mV],11630,
-Value is [mV],11307,
-Value is [mV],11668,
-Value is [mV],11527,
-Value is [mV],11101,
-Value is [mV],11436,
-Value is [mV],11604,
-Value is [mV],11604,
-Value is [mV],11178,
-Value is [mV],11410,
-Value is [mV],11269,
-Value is [mV],11217,
-Value is [mV],11333,
-Value is [mV],11166,
-Value is [mV],11436,
-Value is [mV],11668,
-Value is [mV],11591,
-Value is [mV],11501,
-Value is [mV],11385,
-Value is [mV],11217,
-Value is [mV],11307,
-Value is [mV],11269,
-Value is [mV],11514,
-Value is [mV],11707,
-Value is [mV],11320,
-Value is [mV],11836,
-Value is [mV],11462,
-Value is [mV],11372,
-Value is [mV],11630,
-Value is [mV],11707,
-Value is [mV],11359,
-Value is [mV],11720,
-Value is [mV],11410,
-Value is [mV],11333,
-Value is [mV],11243,
-Value is [mV],11514,
-Value is [mV],11888,
-Value is [mV],11875,
-Value is [mV],11655,
-Value is [mV],11436,
-Value is [mV],11539,
-Value is [mV],11282,
-Value is [mV],11501,
-Value is [mV],11153,
-Value is [mV],11307,
-Value is [mV],11900,
-Value is [mV],11320,
-Value is [mV],11488,
-Value is [mV],11256,
-Value is [mV],11681,
-Value is [mV],11436,
-Value is [mV],11578,
-Value is [mV],11823,
-Value is [mV],11320,
-Value is [mV],11294,
-Value is [mV],11346,
-Value is [mV],11772,
-Value is [mV],11694,
-Value is [mV],11204,
-Value is [mV],11088,
-Value is [mV],11810,
-Value is [mV],11604,
-Value is [mV],11217,
-Value is [mV],11294,
-Value is [mV],11462,
-Value is [mV],11398,
-Value is [mV],11501,
-Value is [mV],11462,
-Value is [mV],11410,
-Value is [mV],11578,
-Value is [mV],11694,
-Value is [mV],11552,
-Value is [mV],11423,
-Value is [mV],11153,
-Value is [mV],11875,
-Value is [mV],11681,
-Value is [mV],11836,
-Value is [mV],11668,
-Value is [mV],11514,
-Value is [mV],11256,
-Value is [mV],11320,
-Value is [mV],11243,
-Value is [mV],11913,
-Value is [mV],11307,
-Value is [mV],11346,
-Value is [mV],11346,
-Value is [mV],11836,
-Value is [mV],11630,
-Value is [mV],11733,
-Value is [mV],11256,
-Value is [mV],11372,
-Value is [mV],11681,
-Value is [mV],11578,
-Value is [mV],11797,
-Value is [mV],11578,
-Value is [mV],11410,
-Value is [mV],11398,
-Value is [mV],11888,
-Value is [mV],11436,
-Value is [mV],11617,
-Value is [mV],11823,
-Value is [mV],11436,
-Value is [mV],11823,
-Value is [mV],11166,
-Value is [mV],11514,
-Value is [mV],11359,
-Value is [mV],11307,
-Value is [mV],11423,
-Value is [mV],11333,
-Value is [mV],11875,
-Value is [mV],11462,
-Value is [mV],11565,
-Value is [mV],11578,
-Value is [mV],11294,
-Value is [mV],11668,
-Value is [mV],11578,
-Value is [mV],11668,
-Value is [mV],11204,
-Value is [mV],11372,
-Value is [mV],11591,
-Value is [mV],11307,
-Value is [mV],11282,
-Value is [mV],11527,
-Value is [mV],11630,
-Value is [mV],11475,
-Value is [mV],11913,
-Value is [mV],11694,
-Value is [mV],11475,
-Value is [mV],11720,
-Value is [mV],11449,
-Value is [mV],11746,
-Value is [mV],11514,
-Value is [mV],11888,
-Value is [mV],11398,
-Value is [mV],11552,
-Value is [mV],11630,
-Value is [mV],11720,
-Value is [mV],11359,
-Value is [mV],11114,
-Value is [mV],11617,
-Value is [mV],11204,
-Value is [mV],11643,
-Value is [mV],11204,
-Value is [mV],11617,
-Value is [mV],11423,
-Value is [mV],11617,
-Value is [mV],11462,
-Value is [mV],11720,
-Value is [mV],11604,
-Value is [mV],11462,
-Value is [mV],11552,
-Value is [mV],11746,
-Value is [mV],12029,
-Value is [mV],11398,
-Value is [mV],11372,
-Value is [mV],11385,
-Value is [mV],11733,
-Value is [mV],11307,
-Value is [mV],11449,
-Value is [mV],11153,
-Value is [mV],11346,
-Value is [mV],11501,
-Value is [mV],11282,
-Value is [mV],11140,
-Value is [mV],11836,
-Value is [mV],11746,
-Value is [mV],11707,
-Value is [mV],11385,
-Value is [mV],11333,
-Value is [mV],11707,
-Value is [mV],11939,
-Value is [mV],11475,
-Value is [mV],11527,
-Value is [mV],11294,
-Value is [mV],11875,
-Value is [mV],11514,
-Value is [mV],11488,
-Value is [mV],11849,
-Value is [mV],11320,
-Value is [mV],11539,
-Value is [mV],11385,
-Value is [mV],11720,
-Value is [mV],11668,
-Value is [mV],11578,
-Value is [mV],11527,
-Value is [mV],11604,
-Value is [mV],11423,
-Value is [mV],11475,
-Value is [mV],11514,
-Value is [mV],11307,
-Value is [mV],11617,
-Value is [mV],11617,
-Value is [mV],11256,
-Value is [mV],11514,
-Value is [mV],11784,
-Value is [mV],11359,
-Value is [mV],11282,
-Value is [mV],11501,
-Value is [mV],11578,
-Value is [mV],11191,
-Value is [mV],11823,
-Value is [mV],11707,
-Value is [mV],11655,
-Value is [mV],11178,
-Value is [mV],11527,
-Value is [mV],11423,
-Value is [mV],11655,
-Value is [mV],11307,
-Value is [mV],11410,
-Value is [mV],11527,
-Value is [mV],11501,
-Value is [mV],11282,
-Value is [mV],11256,
-Value is [mV],11307,
-Value is [mV],11720,
-Value is [mV],11772,
-Value is [mV],11604,
-Value is [mV],11423,
-Value is [mV],11166,
-Value is [mV],11191,
-Value is [mV],11797,
-Value is [mV],11269,
-Value is [mV],11410,
-Value is [mV],11681,
-Value is [mV],11733,
-Value is [mV],11269,
-Value is [mV],11294,
-Value is [mV],11307,
-Value is [mV],11488,
-Value is [mV],11320,
-Value is [mV],11630,
-Value is [mV],11256,
-Value is [mV],11178,
-Value is [mV],11462,
-Value is [mV],11398,
-Value is [mV],11630,
-Value is [mV],11230,
-Value is [mV],11552,
-Value is [mV],11282,
-Value is [mV],11153,
-Value is [mV],11514,
-Value is [mV],11269,
-Value is [mV],11024,
-Value is [mV],11720,
-Value is [mV],11372,
-Value is [mV],11359,
-Value is [mV],11630,
-Value is [mV],11655,
-Value is [mV],11269,
-Value is [mV],11578,
-Value is [mV],11140,
-Value is [mV],11217,
-Value is [mV],11423,
-Value is [mV],11668,
-Value is [mV],11462,
-Value is [mV],11888,
-Value is [mV],11307,
-Value is [mV],11926,
-Value is [mV],11733,
-Value is [mV],11385,
-Value is [mV],11217,
-Value is [mV],11449,
-Value is [mV],11410,
-Value is [mV],11282,
-Value is [mV],11604,
-Value is [mV],11681,
-Value is [mV],11269,
-Value is [mV],11617,
-Value is [mV],11204,
-Value is [mV],11320,
-Value is [mV],11423,
-Value is [mV],11746,
-Value is [mV],11565,
-Value is [mV],11346,
-Value is [mV],11668,
-Value is [mV],11475,
-Value is [mV],11888,
-Value is [mV],11488,
-Value is [mV],11294,
-Value is [mV],11875,
-Value is [mV],11759,
-Value is [mV],11320,
-Value is [mV],11462,
-Value is [mV],11643,
-Value is [mV],11591,
-Value is [mV],11333,
-Value is [mV],11423,
-Value is [mV],11746,
-Value is [mV],11372,
-Value is [mV],11410,
-Value is [mV],11269,
-Value is [mV],11655,
-Value is [mV],11282,
-Value is [mV],11681,
-Value is [mV],11578,
-Value is [mV],11398,
-Value is [mV],11643,
-Value is [mV],11746,
-Value is [mV],11398,
-Value is [mV],11591,
-Value is [mV],11333,
-Value is [mV],11166,
-Value is [mV],11617,
-Value is [mV],11888,
-Value is [mV],11746,
-Value is [mV],11578,
-Value is [mV],11797,
-Value is [mV],11230,
-Value is [mV],11591,
-Value is [mV],11810,
-Value is [mV],11488,
-Value is [mV],11810,
-Value is [mV],11307,
-Value is [mV],11694,
-Value is [mV],11501,
-Value is [mV],11527,
-Value is [mV],11578,
-Value is [mV],11849,
-Value is [mV],11410,
-Value is [mV],11733,
-Value is [mV],11514,
-Value is [mV],11475,
-Value is [mV],11282,
-Value is [mV],11333,
-Value is [mV],11488,
-Value is [mV],11797,
-Value is [mV],11720,
-Value is [mV],11772,
-Value is [mV],11372,
-Value is [mV]
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2019.01.05 21:22:47 =~=~=~=~=~=~=~=~=~=~=~=
+22097,11855,22713,11849
+22097,11856,22713,11849
+22097,11855,22713,11846
+22098,11852,22714,11841
+22097,11850,22714,11842
+22096,11851,22714,11843
+22096,11852,22714,11843
+22097,11851,22714,11845
+22097,11853,22713,11849
+22097,11856,22713,11850
+22097,11858,22713,11850
+22097,11856,22714,11845
+22098,11851,22715,11839
+22097,11847,22714,11839
+22097,11848,22714,11838
+22096,11849,22714,11842
+22097,11850,22714,11845
+22097,11854,22714,11848
+22096,11856,22713,11851
+22097,11857,22713,11849
+22098,11853,22713,11845
+22098,11852,22714,11842
+22097,11851,22715,11841
+22097,11848,22714,11842
+22097,11851,22714,11843
+22097,11852,22714,11844
+22097,11852,22714,11847
+22097,11855,22713,11850
+22097,11857,22714,11850
+22098,11855,22714,11846
+22098,11853,22714,11841
+22098,11848,22714,11839
+22097,11850,22714,11840
+22097,11850,22715,11840
+22097,11849,22714,11843
+22097,11852,22713,11848
+22097,11856,22713,11850
+22098,11857,22713,11850
+22097,11857,22713,11849
+22097,11856,22714,11847
+22097,11854,22714,11843
+22097,11850,22715,11839
+22097,11847,22714,11840
+22097,11849,22715,11842
+22097,11851,22714,11845
+22097,11853,22713,11849
+22098,11854,22713,11848
+22097,11855,22714,11847
+22098,11854,22714,11845
+22097,11853,22714,11841
+22097,11850,22714,11839
+22097,11848,22714,11840
+22097,11850,22714,11844
+22097,11852,22714,11846
+22097,11854,22713,11850
+22097,11858,22713,11850
+22098,11856,22713,11849
+22097,11856,22714,11848
+22097,11855,22714,11845
+22097,11853,22714,11840
+22097,11849,22714,11840
+22097,11849,22715,11842
+22097,11850,22714,11845
+22097,11853,22714,11848
+22098,11854,22714,11849
+22098,11854,22714,11846
+22098,11853,22714,11842
+22098,11849,22716,11837
+22098,11845,22716,11835
+22097,11845,22716,11838
+22097,11848,22715,11845
+22096,11857,22713,11860
+22097,11867,22713,11863
+22096,11870,22712,11866
+22097,11870,22713,11860
+22097,11864,22713,11851
+22097,11858,22714,11848
+22096,11856,22714,11846
+22096,11854,22713,11847
+22096,11855,22714,11845
+22097,11850,22713,11844
+22098,11851,22713,11846
+22096,11857,22711,11865
+22094,11878,22709,11884
+22092,11896,22708,11900
+22090,11911,22707,11911
+22090,11918,22706,11914
+22089,11920,22706,11914
+22088,11919,22705,11912
+22089,11916,22705,11910
+22088,11914,22705,11907
+22088,11910,22705,11903
+22089,11905,22705,11896
+22089,11898,22706,11885
+22090,11885,22709,11859
+22103,11827,22743,11621
+22149,11490,22795,11131
+22171,11044,22820,10837
+22171,10856,22824,10794
+22169,10856,22828,10838
+22162,10920,22831,10912
+22156,11000,22830,10998
+22143,11100,22827,11118
+22081,11321,22823,11372
+22083,11481,22830,11408
+22085,11491,22832,11413
+22088,11493,22832,11422
+22075,11533,22831,11485
+22082,11566,22830,11499
+22082,11584,22826,11535
+22079,11624,22823,11577
+22077,11665,22822,11610
+22077,11690,22822,11622
+22079,11696,22821,11631
+22088,11692,22820,11623
+22073,11724,22808,11736
+18764,20521,12595,23595
+10821,23594,8900,23595
+7943,23594,6270,23595
+5546,23592,3759,23595
+3233,23592,2178,23595
+2057,23592,1862,23595
+1922,23592,1796,23595
+1915,23595,1826,23595
+1974,23594,1923,23595
+2122,23594,2202,23594
+2444,23593,2702,23595
+3049,23593,3614,23594
+4076,23593,4802,23594
+5268,23593,5978,23595
+6310,23593,6686,23594
+6669,23593,6373,23595
+6307,23593,6088,23595
+5694,23594,5071,23595
+4983,23593,4578,23595
+4497,23593,4212,23595
+4249,23593,4203,23595
+4289,23593,4201,23595
+4265,23594,4205,23595
+4349,23593,4711,23595
+5158,23593,6207,23595
+6898,23593,7865,23589
+8257,23588,8816,23556
+8958,22321,9068,23177
+9064,21051,8985,23028
+9010,21166,8997,23036
+9056,20854,9141,22017
+9291,19081,9614,18309
+9798,14294,10253,11961
+10418,7365,10809,5222
+10926,1058,11189,271
+11268,65535,11454,65535
+11536,65535,11674,65535
+11743,65535,11848,65535
+11903,65535,12004,65535
+12067,65535,12202,65535
+12277,65535,12464,65535
+12555,65535,12803,65535
+12904,65535,13237,65535
+13329,65535,13676,65535
+13728,65535,14054,65535
+14096,65535,14432,65535
+14443,65535,14768,65535
+14764,65535,15089,65535
+15066,65535,15382,65535
+15349,65535,15637,65535
+15572,65535,15752,65535
+15608,65535,15466,65535
+15189,65535,14838,65535
+14677,65535,14553,65535
+14498,65535,14460,65535
+14441,65535,14443,65535
+14435,65535,14449,65535
+14441,65535,14470,65535
+14466,65535,14505,65535
+14503,65535,14542,65535
+14540,65535,14587,13
+14578,65535,14618,54
+14607,65535,14642,127
+14632,65535,14659,246
+14640,65535,14637,601
+14595,65535,14583,1414
+14563,65535,14581,1914
+14570,1,14592,2255
+14565,16,14593,2652
+14578,249,14609,2939
+14598,505,14615,3229
+14600,837,14614,3625
+14599,1240,14622,4002
+14610,1569,14639,4299
+14626,1857,14669,4528
+14655,2053,14699,4691
+14683,2218,14722,4863
+14706,2397,14738,5049
+14724,2579,14753,5210
+14739,2731,14767,5347
+14751,2875,14780,5503
+14760,3049,14798,5673
+14774,3229,14789,5996
+14732,3767,14713,7057
+14674,4885,14687,7999
+14667,5631,14684,8465
+14666,6007,14682,8734
+14670,6215,14698,8801
+14696,6181,14730,8624
+14720,6002,14752,8506
+14735,5931,14775,8483
+14758,5913,14806,8444
+14786,5879,14833,8406
+14811,5857,14850,8417
+14831,5876,14861,8456
+14838,5947,14866,8533
+14848,6013,14885,8522
+14863,5980,14903,8483
+14880,5948,14926,8452
+14893,5954,14942,8516
+14908,6043,14963,8593
+14932,6101,14993,8567
+14948,6099,14935,9003
+14876,6799,14864,9989
+14837,7660,14856,10475
+14839,7933,14855,10589
+14830,8050,14854,10729
+14836,8151,14883,10670
+14862,8040,14907,10546
+14881,7950,14923,10505
+14897,7931,14937,10489
+14913,7912,14946,10459
+14923,7886,14953,10428
+14930,7855,14961,10382
+14936,7820,14971,10341
+14943,7789,14989,10294
+14959,7738,15014,10213
+14982,7657,15040,10122
+15004,7588,15059,10078
+15025,7553,15079,10016
+15046,7483,15094,9934
+15049,7471,15041,10251
+14975,8023,14960,11212
+14923,8904,14950,11732
+14921,9223,14964,11797
+14935,9211,14984,11708
+14950,9123,15000,11633
+14964,9068,15009,11607
+14974,9054,15016,11583
+14986,9017,15025,11506
+14995,8933,15032,11410
+15001,8845,15040,11324
+15008,8767,15055,11229
+15020,8674,15075,11128
+15036,8584,15099,11025
+15058,8487,15121,10929
+15079,8404,15139,10841
+15099,8321,15154,10747
+15113,8239,15129,10835
+15054,8572,15028,11771
+14974,9561,14992,12536
+14959,10085,14998,12705
+14965,10118,15007,12672
+14973,10078,15024,12589
+14990,9976,15038,12476
+14998,9919,15040,12466
+15002,9921,15042,12446
+15005,9897,15039,12417
+15005,9861,15046,12322
+15014,9739,15062,12143
+15026,9560,15079,11970
+15039,9413,15098,11852
+15053,9320,15115,11773
+15070,9255,15132,11703
+15087,9187,15145,11621
+15102,9108,15157,11519
+15115,9000,15167,11396
+15122,8898,15137,11488
+15057,9246,15039,12422
+14981,10218,15014,13133
+14976,10657,15027,13232
+14986,10667,15037,13182
+14998,10599,15051,13064
+15013,10471,15057,12951
+15017,10386,15052,12915
+15016,10358,15051,12868
+15017,10299,15055,12775
+15020,10197,15065,12643
+15028,10062,15079,12504
+15038,9937,15096,12386
+15050,9863,15113,12309
+15065,9793,15127,12235
+15081,9718,15139,12144
+15093,9636,15120,12177
+15047,9859,15032,12898
+14975,10651,14994,13540
+14958,11073,14992,13668
+14953,11120,14992,13667
+14953,11103,15007,13580
+14967,10982,15020,13438
+14977,10864,15025,13362
+14984,10798,15029,13294
+14990,10729,15030,13212
+14994,10641,15030,13110
+14995,10539,15034,12995
+14997,10427,15039,12881
+15000,10325,15050,12779
+15008,10231,15067,12677
+15022,10128,15084,12569
+15038,10027,15099,12472
+15053,9938,15110,12380
+15062,9886,15115,12319
+15070,9822,15120,12235
+15074,9742,15097,12275
+15018,9993,15005,13071
+14941,10869,14972,13775
+14928,11337,14972,13949
+14925,11438,14967,14023
+14923,11501,14973,14012
+14935,11436,14980,13878
+14939,11309,14974,13798
+14934,11248,14967,13739
+14931,11180,14966,13645
+14929,11077,14971,13521
+14931,10954,14981,13389
+14939,10826,14994,13262
+14949,10708,15009,13144
+14963,10596,15024,13024
+14979,10476,15035,12897
+14992,10355,15041,12780
+15000,10246,15046,12667
+15004,10140,15049,12563
+15007,10043,15058,12453
+15013,9941,15063,12378
+14993,10003,15001,12870
+14926,10654,14951,13648
+14900,11296,14946,13964
+14899,11487,14937,14058
+14892,11561,14931,14081
+14894,11533,14931,13968
+14891,11414,14923,13881
+14883,11341,14922,13799
+14883,11248,14933,13663
+14892,11095,14948,13491
+14904,10930,14965,13328
+14919,10776,14981,13180
+14935,10636,14994,13037
+14950,10495,15004,12893
+14961,10355,15014,12739
+14979,10168,15036,12471
+14999,9886,15058,12191
+15011,9668,15053,12111
+14976,9786,14987,12720
+14921,10483,14964,13314
+14916,10883,14966,13478
+14917,10988,14962,13549
+14921,11022,14976,13452
+14941,10846,14985,13221
+14944,10656,14980,13121
+14940,10585,14985,13019
+14945,10469,15005,12842
+14964,10266,15022,12625
+14969,10127,15045,12473
+14991,9977,15077,12286
+15032,9745,15088,12063
+15017,9717,15065,12312
+14951,10150,14676,14510
+14500,13716,14430,18100
+14303,16719,14227,20411
+14140,18736,14144,21520
+14043,19586,13931,22641
+13747,21414,13589,23585
+13455,23292,13613,23508
+13813,21450,14826,19698
+15611,10132,17155,817
+18039,65535,19097,65535
+19543,65535,20207,65535
+20419,65535,21047,65535
+20988,65535,21381,65535
+21170,65535,21422,65535
+21183,65535,21386,65535
+21195,65535,21430,65535
+21282,65535,21608,65535
+21527,65535,22013,65535
+21793,65535,22236,65535
+21949,65535,22389,65535
+22073,65535,22492,65535
+22125,65535,22522,65535
+22184,65535,22604,65535
+22309,65535,22676,65535
+22728,65535,22969,65535
+22210,65535,22685,65535
+22096,65535,22671,65535
+22094,65535,22675,65535
+22111,65535,22670,65535
+22096,65535,22640,65535
+22053,65535,22619,65535
+22042,65535,22616,65535
+22037,65535,22615,65535
+22040,65535,22622,65535
+22045,65535,22627,65535
+22048,65535,22631,65535
+22052,65535,22634,65535
+22051,65535,22630,65535
+22048,65535,22632,65535
+22051,65535,22635,65535
+22054,65535,22639,65535
+22058,65535,22643,65535
+22060,65535,22638,65535
+22050,65535,22638,65535
+22052,65535,22642,65535
+22055,65535,22644,65535
+22057,65535,22646,65535
+22060,65535,22648,65535
+22063,65535,22651,65535
+22065,65535,22654,65535
+22069,65535,22659,65535
+22072,65535,22660,65535
+22073,46,22665,65535
+22071,151,22665,65535
+22073,254,22665,49
+22069,376,22665,301
+22072,496,22668,678
+22074,856,22670,1124
+22076,1311,22671,1603
+22079,1780,22672,2068
+22080,2242,22674,2520
+22080,2689,22675,2953
+22082,3114,22676,3370
+22083,3522,22678,3762
+22084,3907,22678,4136
+22085,4276,22679,4491
+22088,4620,22685,4796
+22097,4900,22694,5039
+22105,5141,22699,5290
+22112,5389,22709,5509
+22127,5586,22719,5682
+22132,5778,22720,5922
+22133,6033,22719,6193
+22131,6307,22719,6460
+22135,6558,22735,6613
+22171,6614,22773,6507
+22194,6523,22780,6550
+22197,6637,22781,6746
+22199,6852,22772,7025
+22182,7180,22752,7428
+22161,7597,22729,7871
+22133,8045,22718,8266
+22128,8377,22717,8494
+22128,8569,22718,8650
+22128,8716,22719,8784
+22128,8846,22720,8907
+22127,8973,22718,9048
+22125,9112,22717,9179
+22125,9236,22715,9304
+22124,9363,22715,9423
+22123,9474,22715,9524
+22124,9570,22717,9610
+22125,9656,22717,9692
+22124,9739,22717,9775
+22127,9814,22728,9789
+22156,9752,22769,9535
+22149,9530,22798,9369
+22057,9579,22795,9657
+21963,9965,22798,10033
+22001,10113,22810,9983
+22003,10080,22812,9995
+21998,10119,22811,10067
+21994,10188,22811,10143
+21992,10261,22809,10220
+22023,10271,22810,10187
+22020,10281,22807,10251
+22071,10252,22809,10159
+22061,10244,22811,10211
+22063,10293,22812,10259
+22064,10343,22817,10286
+22141,10223,22826,10075
+22206,9999,22825,9928
+22233,9950,22799,10063
+22208,10184,22772,10402
+22174,10542,22736,10832
+22134,10983,22718,11183
+22124,11245,22713,11324
+22113,11359,22703,11438
+22107,11454,22702,11481
+22106,11478,22701,11488
+22105,11481,22700,11489
+22103,11484,22699,11490
+22102,11482,22699,11487
+22103,11476,22700,11476
+22104,11464,22699,11468
+22104,11457,22699,11463
+22104,11454,22700,11459
+22104,11449,22700,11453
+22104,11445,22702,11447
+22105,11439,22702,11440
+22105,11432,22703,11434
+22109,11417,22709,11388
+22115,11368,22712,11350
+22121,11331,22716,11313
+22123,11301,22717,11300
+22124,11297,22717,11307
+22124,11308,22718,11317
+22125,11315,22719,11317
+22126,11317,22720,11323
+22126,11325,22721,11332
+22125,11334,22722,11340
+22139,11306,22738,11222
+22150,11183,22752,11086
+22173,11030,22760,10968
+22177,10958,22766,10932
+22185,10906,22795,10758
+22125,10853,22802,10849
+21982,11183,22782,11392
+21881,11728,22804,11687
+21922,11747,22821,11502
+21938,11562,22826,11365
+21950,11445,22831,11267
+21965,11347,22839,11163
+21985,11238,22846,11059
+21990,11165,22850,11013
+21984,11151,22852,11032
+21980,11177,22852,11064
+21975,11214,22852,11100
+21972,11251,22850,11144
+21972,11287,22849,11175
+21978,11300,22848,11176
+21978,11307,22846,11201
+21979,11334,22844,11226
+21975,11364,22846,11242
+21990,11344,22837,11249
+21974,11405,22831,11343
+21963,11497,22828,11417
+21944,11583,22818,11539
+21918,11721,22761,11936
+21855,12230,11137,23596
+8306,23592,5101,23595
+4174,23592,2691,23595
+2375,23592,1626,23595
+1657,23592,1567,23595
+1689,23592,1586,23595
+1745,23592,1828,23595
+2166,23595,2751,23595
+3574,23594,4936,23595
+6035,23594,7200,23595
+7991,23593,8625,23595
+9063,23593,9264,23594
+9605,23594,9607,23595
+9905,23594,9808,23595
+10069,23594,9805,23595
+10070,23594,9801,23595
+10083,23594,9847,23595
+10163,23593,9965,23595
+10280,23593,10089,23595
+10411,23593,10254,23595
+10562,23593,10406,23594
+10697,23593,10514,23595
+10797,23594,10651,23595
+10948,23594,10821,23595
+11112,23594,10950,23595
+11198,23587,10907,23595
+11113,23589,10766,23595
+10987,23594,10676,23595
+10927,23594,10656,23595
+10914,23578,10638,23595
+10903,23487,10663,23595
+10930,23192,10704,23592
+10981,22664,10769,23565
+11050,21984,10711,23574
+10914,22355,10569,23589
+10824,22611,10550,23581
+10834,22281,10612,23537
+10912,21546,10708,23443
+10993,20761,10758,23355
+11013,20320,10771,23296
+11029,20006,10775,23247
+11021,19817,10800,23161
+11081,19354,10883,22951
+11162,18638,10976,21993
+11271,17395,11113,20282
+11388,15624,11197,18714
+11449,14250,11251,17656
+11505,13275,11306,16796
+11523,12580,11255,16730
+11406,13046,10963,18726
+11120,15725,10788,21305
+11033,17719,10807,21960
+11072,17766,10839,21475
+11108,17155,10897,20654
+11164,16229,10895,20000
+11146,15798,10868,19889
+11119,15766,10826,19991
+11073,15950,10822,20050
+11083,15850,10857,19674
+11124,15327,10911,18974
+11181,14557,10968,18143
+11238,13715,11020,17339
+11285,12943,11066,16636
+11331,12249,11107,15997
+11369,11644,11144,15447
+11396,11142,11115,15294
+11323,11370,11012,16164
+11247,12319,11005,16724
+11269,12536,11057,16408
+11320,12049,11101,15828
+11359,11483,11133,15331
+11381,11059,11134,15099
+11380,10922,11137,15035
+11387,10840,11153,14884
+11407,10638,11179,14618
+11438,10319,11228,14172
+11485,9825,11272,13678
+11512,9440,11301,13390
+11547,9154,11343,13045
+11588,8799,11393,12632
+11645,8330,11455,12074
+11675,7865,11387,12300
+11592,8477,11326,13197
+11572,9188,11361,13348
+11605,9107,11350,13288
+11579,9234,11362,13409
+11605,9225,11391,13253
+11631,9047,11417,13080
+11659,8852,11449,12844
+11700,8557,11501,12416
+11757,8057,11566,11804
+11817,7437,11623,11212
+11866,6905,11666,10787
+11898,6575,11684,10629
+11901,6568,11675,10847
+11889,6880,11649,11269
+11834,7472,11506,12521
+11682,9057,11395,14186
+11617,10433,11402,14786
+11662,10522,11465,14307
+11742,9821,11556,13379
+11813,8891,11600,12636
+11825,8384,11576,12639
+11796,8591,11552,12999
+11775,8969,11539,13304
+11758,9274,11550,13451
+11811,9172,11634,12830
+11878,8450,11683,12176
+11914,7905,11654,12030
+11836,8213,11528,13070
+11724,9458,11447,14230
+11640,10567,11400,15070
+11623,11142,11427,15140
+11655,10993,11438,14928
+11675,10754,11480,14552
+11731,10245,11611,13598
+11890,8868,11627,12510
+11838,8489,11584,12794
+11785,8948,11502,13535
+11712,9791,11494,14099
+11720,10086,11511,14101
+11735,9981,11523,13982
+11749,9880,11552,13769
+11781,9612,11584,13438
+11811,9275,11606,13140
+11828,9023,11610,13001
+11829,8952,11601,13038
+11814,9059,11595,13172
+11811,9176,11609,13191
+11833,9107,11636,13009
+11839,8971,11547,13451
+11710,9894,11412,14934
+11615,11323,11379,15802
+11609,11809,11379,15854
+11606,11770,11372,15765
+11601,11676,11359,15691
+11578,11666,11332,15805
+11553,11801,11322,15879
+11550,11811,11331,15766
+11562,11638,11351,15496
+11583,11333,11371,15175
+11601,11017,11383,14907
+11611,10780,11383,14722
+11610,10631,11382,14628
+11611,10543,11387,14524
+11616,10425,11399,14367
+11630,10243,11421,14138
+11651,9994,11446,13870
+11662,9797,11387,14059
+11551,10442,11239,15435
+11439,11861,11188,16430
+11417,12535,11191,16569
+11423,12496,11189,16412
+11421,12323,11187,16231
+11410,12177,11157,16252
+11377,12291,11138,16384
+11367,12365,11152,16277
+11390,12140,11194,15868
+11438,11615,11243,15260
+11485,10985,11282,14690
+11524,10435,11310,14227
+11547,10031,11321,13951
+11555,9822,11334,13784
+11567,9682,11356,13587
+11589,9458,11385,13322
+11617,9183,11418,13031
+11648,8894,11449,12756
+11668,8674,11388,12985
+11553,9387,11233,14475
+11429,10967,11172,15643
+11400,11769,11150,15987
+11374,12028,11128,16138
+11359,12126,11124,16123
+11350,12079,11111,16110
+11341,12071,11123,16021
+11368,11852,11166,15587
+11408,11345,11202,15080
+11444,10845,11236,14607
+11478,10382,11264,14191
+11502,9999,11280,13892
+11510,9796,11288,13749
+11519,9666,11302,13617
+11533,9523,11321,13454
+11551,9355,11346,13263
+11577,9151,11373,13047
+11604,8929,11401,12823
+11627,8726,11365,12898
+11538,9204,11210,14216
+11404,10717,11144,15421
+11382,11517,11160,15568
+11402,11427,11180,15289
+11419,11118,11191,15014
+11415,10927,11167,15056
+11389,11077,11154,15237
+11387,11192,11170,15161
+11412,11006,11202,14821
+11446,10610,11233,14396
+11474,10192,11251,14045
+11489,9888,11264,13817
+11495,9734,11275,13687
+11505,9613,11290,13565
+11519,9487,11312,13410
+11544,9306,11342,13174
+11575,9046,11375,12888
+11603,8777,11338,12922
+11510,9242,11182,14248
+11376,10760,11112,15480
+11345,11617,11115,15733
+11353,11650,11119,15603
+11353,11510,11124,15458
+11354,11372,11112,15414
+11336,11406,11097,15522
+11328,11495,11105,15488
+11344,11372,11126,15234
+11369,11057,11154,14854
+11398,10651,11179,14454
+11420,10273,11199,14128
+11437,9976,11218,13871
+11451,9774,11239,13663
+11473,9559,11268,13419
+11500,9304,11299,13147
+11533,9023,11333,12848
+11568,8715,11368,12525
+11596,8416,11319,12610
+11487,8993,11155,14073
+11351,10603,11093,15301
+11330,11410,11106,15475
+11343,11379,11115,15315
+11350,11210,11125,15135
+11354,11048,11110,15118
+11334,11121,11096,15245
+11331,11204,11108,15170
+11350,11034,11134,14866
+11380,10669,11165,14442
+11409,10233,11192,14031
+11433,9853,11213,13722
+11444,9631,11231,13540
+11463,9447,11256,13332
+11490,9225,11287,13078
+11521,8961,11318,12806
+11552,8691,11349,12527
+11584,8405,11380,12237
+11614,8127,11393,12027
+11586,8136,11251,12926
+11423,9523,11131,14560
+11350,10910,11129,15205
+11370,11142,11154,15046
+11388,10916,11166,14828
+11398,10716,11157,14737
+11380,10729,11130,14903
+11360,10914,11127,14988
+11367,10900,11146,14796
+11391,10621,11178,14409
+11422,10200,11209,13986
+11449,9798,11234,13648
+11466,9546,11252,13456
+11483,9373,11273,13293
+11505,9205,11297,13096
+11530,8993,11324,12856
+11561,8734,11355,12560
+11591,8436,11382,12276
+11603,8222,11301,12610
+11470,9079,11155,14155
+11361,10614,11125,15131
+11366,11144,11153,15091
+11392,10943,11173,14812
+11410,10665,11175,14616
+11399,10574,11145,14746
+11373,10772,11133,14902
+11373,10837,11151,14765
+11397,10593,11183,14383
+11429,10167,11219,13934
+11461,9729,11248,13554
+11481,9436,11268,13330
+11498,9248,11287,13174
+11521,9083,11313,12973
+11549,8861,11344,12707
+11577,8590,11316,12675
+11494,8959,11164,13918
+11360,10416,11099,15116
+11337,11226,11113,15301
+11353,11193,11125,15118
+11362,11002,11136,14930
+11365,10843,11120,14925
+11346,10922,11107,15044
+11344,10994,11119,14960
+11364,10813,11147,14637
+11395,10426,11180,14190
+11427,9968,11210,13760
+11447,9617,11232,13480
+11466,9368,11257,13244
+11492,9127,11288,12984
+11523,8857,11300,12780
+11496,8873,11176,13592
+11361,10082,11080,14929
+11313,11133,11082,15334
+11326,11247,11094,15169
+11335,11039,11104,14949
+11340,10832,11091,14869
+11319,10854,11075,14996
+11309,10965,11088,14968
+11332,10827,11124,14660
+11371,10445,11160,14220
+11403,10016,11181,13870
+11424,9707,11195,13618
+11435,9511,11214,13393
+11454,9266,11239,13135
+11479,8990,11255,12903
+11457,8948,11139,13629
+11319,10111,11033,15047
+11261,11299,11033,15586
+11279,11511,11050,15464
+11294,11316,11063,15210
+11308,11041,11050,15049
+11281,11013,11014,15218
+11252,11214,11009,15307
+11256,11199,11034,15091
+11284,10887,11073,14677
+11320,10445,11108,14251
+11350,10054,11130,13956
+11372,9800,11151,13739
+11392,9616,11176,13496
+11420,9341,11161,13362
+11357,9519,11024,14333
+11226,10765,10954,15455
+11196,11553,10963,15663
+11207,11560,10973,15525
+11214,11407,10991,15331
+11229,11193,10990,15197
+11224,11132,10985,15199
+11231,11094,11003,15023
+11257,10826,11034,14626
+11291,10373,11069,14135
+11323,9885,11097,13700
+11341,9538,11124,13401
+11368,9240,11162,13083
+11404,8914,11188,12801
+11399,8798,11091,13379
+11282,9782,10999,14612
+11232,10830,11001,15052
+11256,10916,11020,14827
+11271,10638,11037,14525
+11285,10334,11033,14342
+11271,10259,11032,14345
+11276,10236,11055,14214
+11304,10027,11098,13869
+11348,9627,11143,13419
+11391,9208,11189,12971
+11438,8751,11226,12527
+11472,8344,11249,12211
+11494,8075,11274,11970
+11521,7832,11308,11690
+11550,7560,11341,11442
+11573,7363,11299,11636
+11480,7989,11185,12929
+11404,9270,11187,13664
+11438,9585,11225,13482
+11466,9325,11235,13268
+11477,9145,11233,13163
+11463,9132,11208,13322
+11445,9315,11217,13390
+11462,9275,11251,13174
+11495,9001,11295,12824
+11538,8630,11342,12426
+11585,8228,11387,12018
+11630,7837,11422,11668
+11664,7525,11439,11451
+11674,7393,11449,11410
+11688,7344,11479,11267
+11721,7146,11516,11002
+11728,6989,11421,11550
+11598,8034,11317,13028
+11541,9321,11329,13640
+11574,9555,11366,13450
+11605,9288,11384,13191
+11621,9059,11380,13076
+11607,9048,11360,13208
+11596,9180,11373,13207
+11617,9073,11414,12915
+11657,8712,11457,12503
+11692,8335,11485,12227
+11714,8134,11508,12089
+11743,7992,11536,11912
+11770,7814,11556,11752
+11791,7666,11576,11596
+11813,7505,11605,11379
+11840,7279,11638,11131
+11870,7037,11658,10964
+11850,7079,11540,11819
+11718,8338,11460,13224
+11689,9423,11490,13550
+11731,9417,11531,13234
+11765,9057,11542,12943
+11774,8852,11551,12801
+11775,8750,11537,12860
+11764,8853,11542,12919
+11772,8865,11554,12859
+11776,8829,11548,12900
+11744,9025,11504,13351
+11729,9448,11546,13330
+11778,9189,11576,12977
+11809,8851,11600,12685
+11830,8587,11626,12429
+11858,8317,11665,12092
+11901,7937,11714,11659
+11948,7493,11734,11331
+11912,7490,11607,12275
+11791,8757,11547,13486
+11777,9621,11578,13671
+11820,9516,11619,13290
+11852,9116,11636,12970
+11858,8890,11615,12992
+11829,9054,11594,13259
+11821,9269,11613,13268
+11846,9161,11653,12986
+11889,8798,11698,12556
+11928,8385,11732,12195
+11958,8072,11753,11973
+11978,7904,11768,11859
+11991,7821,11781,11798
+1

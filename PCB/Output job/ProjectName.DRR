@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Oximeter.PcbDoc   21.12.2018  18:58:53
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : ProjectName-Plated.TXT
+ASCII Non-Plated RoundHoles File : ProjectName-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      20mil (0.5mm)                                             Round             24        PTH        7.14inch (181.23mm)
+T2      32mil (0.8mm)                                             Round             14        PTH        1.30inch (33.02mm)
+T3      35mil (0.899mm)                                           Round             8         PTH        1.31inch (33.27mm)
+T4      39mil (1.001mm)                                           Round             9         PTH        1.09inch (27.73mm)
+T5      126mil (3.2mm)                                            Round             1         PTH        0.00inch (0.00mm)
+T6      126mil (3.2mm)                                            Round             1         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              57
+
+Total Processing Time (hh:mm:ss) : 00:00:00

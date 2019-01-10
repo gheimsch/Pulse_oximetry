@@ -37,32 +37,3 @@ oxySat = (rmsValACRed./medValDCRed)./(rmsValACIRed./medValDCIRed);
 
 end
 
-%% *** FUNCTIONS ******************************************************* %%
-function buffer = initMedianWin(initVal,win)
-
-% initialize
-buffer = initVal*ones(1,win);
-
-end
-
-function [medVal,buffer] = calcMedianWin(x,buffer)
-     
-    % calculate mean
-    medVal = median(buffer);
-    
-    % move buffer
-    buffer(2:end) = buffer(1:end-1);
-    buffer(1) = x;
-    
-end
-
-function [rmsVal,buffer] = calcRMSWin(x,buffer)
-
-    % calculate rms
-    rmsVal = rms(buffer);
-    
-    % move buffer
-    buffer(2:end) = buffer(1:end-1);
-    buffer(1) = x;
-
-end

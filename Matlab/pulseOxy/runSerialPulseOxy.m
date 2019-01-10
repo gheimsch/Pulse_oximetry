@@ -6,12 +6,13 @@ function runSerialPulseOxy
 clear all; close all; clc; 
 
 addpath ..\..\Matlab
+addpath fct
 
 %% -- UI --------------------------------------------------------------- %%
 nbOfSamplesInWin = 200;
 updatePlotNbSample = 20;
 
-showPulseDetectionPlot = false;
+showPulseDetectionPlot = true;
 
 %% -- CONSTANTS -------------------------------------------------------- %%
 % figure constants
@@ -118,7 +119,7 @@ while 1
     
     %% calculate oxygen saturation
     oxySat = calcOxySat(DCInfrared(end),ACInfrared(end),DCRed(end),ACRed(end));
-%     disp(['oxygen saturation: ' num2str(oxySat)]);
+    disp(['oxygen saturation: ' num2str(oxySat)]);
     
     %% calculate pulse
     timeStamp_s = n./freq_Hz;

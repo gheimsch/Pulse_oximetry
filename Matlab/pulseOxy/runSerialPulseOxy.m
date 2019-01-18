@@ -12,7 +12,7 @@ addpath fct
 nbOfSamplesInWin = 200;
 updatePlotNbSample = 20;
 
-showPulseDetectionPlot = true;
+showPulseDetectionPlot = false;
 showOxyDetectionPlot = false;
 
 % set y-Lim for plots

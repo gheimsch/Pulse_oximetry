@@ -16,7 +16,7 @@ persistent bufferFreqPulse_s
 initValBottom = 10;
 initValTop = 0;
 % step size of bottom & top tracker
-stepSizeBottom = 0.02;
+stepSizeBottom = 0.01; % 0.02
 stepSizeTop = 0.2;
 % maximal and minimal value bottom & top tracker shall have
 maxLimit = 3;

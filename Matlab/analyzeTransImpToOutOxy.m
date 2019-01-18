@@ -84,7 +84,7 @@ ylim([-0.2 0.2])
 xlim([time{1}(1) time{1}(end)]);
 title('notch out')
 
-%% figure
+% %% figure
 % figure; 
 % hold on;
 % plot(time{1},data{1})
@@ -100,6 +100,27 @@ title('notch out')
 % title(figTitle)
 % ylim([-0.2 0.2])
 % xlim([time{1}(1) time{1}(end)]);
+
+%% figures to show in report %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% show transimpendanz vs output after all filtering
+figure; 
+hold on;
+plot(time{1},data{1})
+plot(time{3},data{3})
+plot(time{4},data{4})
+plot(time{2},data{2},'LineWidth',1.5)
+hold off;
+grid on;
+legend({'trasnImp', 'lp', 'notch', 'output'})
+title(figTitle)
+ylim([-0.2 0.2])
+xlim([time{1}(1) time{1}(end)]);
+xlabel('time [s]')
+ylabel('measured voltag [V]')
+
+saveas(gcf,'measuredSignal_oxySensor.png');
+
+
 
 end
 

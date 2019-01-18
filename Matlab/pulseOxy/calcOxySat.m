@@ -29,11 +29,11 @@ initValTop = 0;
 % step size of bottom & top tracker
 % stepSizeBottom = 0.006;
 % stepSizeTop = 0.006;
-stepSizeBottom = 0.003;
-stepSizeTop = 0.003;
+stepSizeBottom = 0.002;
+stepSizeTop = 0.002;
 % maximal and minimal value bottom & top tracker shall have
-maxLimit = 3;
-minLimit = 0;
+maxLimit = 2;
+minLimit = 1;
 
 %% initialize buffer
 if isempty(initBuffer)
@@ -50,8 +50,8 @@ if isempty(initBuffer)
 end
 
 %% update buffer - median value DC
-[medValDCIRed,bufferDCIRed] = calcMedianWin(DCIRed,bufferDCIRed);
-[medValDCRed,bufferDCRed] = calcMedianWin(DCRed,bufferDCRed);
+[~,bufferDCIRed] = calcMedianWin(DCIRed,bufferDCIRed);
+[~,bufferDCRed] = calcMedianWin(DCRed,bufferDCRed);
 
 %% calculate bottom and top tracker
 % Infrared

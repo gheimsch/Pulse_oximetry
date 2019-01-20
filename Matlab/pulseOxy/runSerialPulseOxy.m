@@ -12,28 +12,92 @@ addpath fct
 nbOfSamplesInWin = 200;
 updatePlotNbSample = 20;
 
-showPulseDetectionPlot = true;
-showOxyDetectionPlot = false;
-
-% set y-Lim for plots
-% yLimPlot = [0 3.3]; 
-yLimPlot = [0.5 2]; 
+showPulseDetectionPlot = false;
+showOxyDetectionPlot = true;
 
 %% -- CONSTANTS -------------------------------------------------------- %%
 % figure constants
 screensize = get(0,'Screensize');
-screensize = floor(screensize);
+screensize = floor(screensize./2);
 
 % convertions
-% stepSizeADC = 125e-6; % [V]
 stepSizeADC = 805e-6; % [V]
 
 % freqeuncy
-% freq_Hz = 2*8.6; % [Hz]
 freq_Hz = 2*10; % [Hz]
+timWinPlot_s = nbOfSamplesInWin./freq_Hz;
 
-% oxyCalculation look up table
-% lookUpTableOxy = [100, 100, 100, 100, 100, 100, 99, 97, 90, 86, 82, 74, 66, 58, 50, 41, 33, 25, 17, 9, 0];
+%% -- prepare plot ----------------------------------------------------- %%
+% prepare plot
+fig = figure;
+set(fig,'Position',screensize);
+
+if showPulseDetectionPlot || showOxyDetectionPlot
+    subplot(211)
+end
+hlDCInfrared = animatedline;
+hlACInfrared = animatedline;
+hlDCRed = animatedline;
+hlACRed = animatedline;
+
+hlDCInfrared.Color = 'b';
+hlACInfrared.Color = 'c';
+hlDCRed.Color = 'r';
+hlACRed.Color = 'm';
+
+legend({'DC Infrared', 'AC Infrared', 'DC Red', 'AC Red'})
+grid on;
+xlabel('time [s]');
+ylabel('measured voltage [V]')
+
+% tracker plot
+if showPulseDetectionPlot
+    % prepare plot
+    subplot(212)
+    hold on;
+    hlACInfrared2 = animatedline;
+    hlTopTrack = animatedline;
+    hlBottomTrack = animatedline;
+    hlPulseSignal = animatedline;
+    hold off;
+    
+    hlACInfrared2.Color = 'c';    
+    hlTopTrack.Color = 'k';
+    hlBottomTrack.Color = 'k';
+    hlPulseSignal.Color = 'r';
+    
+    legend({'AC Infrared', 'top', 'bottom', 'pulse signal'})
+    grid on;
+    xlabel('time [s]');
+    ylabel('measured voltage [V]')
+    
+elseif showOxyDetectionPlot
+    
+    % prepare plot
+    subplot(212)
+    hold on;   
+    hlACInfrared2 = animatedline;
+    hlACRed2 = animatedline;
+    hlOxyTopTrackIRed = animatedline;
+    hlOxyBottomTrackIRed = animatedline;
+    hlOxyTopTrackRed = animatedline;
+    hlOxyBottomTrackRed = animatedline;        
+    hold off;    
+            
+    hlACInfrared2.Color = 'c';
+    hlACRed2.Color = 'm';
+    
+    hlOxyTopTrackIRed.Color = 'k';
+    hlOxyBottomTrackIRed.Color = 'b';
+    hlOxyTopTrackRed.Color = 'k';
+    hlOxyBottomTrackRed.Color = 'b';
+    
+    legend({'AC Infrared', 'AC Red', 'top IR', 'bottom IR', 'top R', 'bottom IR'})
+    grid on;
+    xlabel('time [s]');
+    ylabel('measured voltage [V]')  
+    
+end
 
 %% -- SETUP SERIAL ----------------------------------------------------- %%
 % find existing objects
@@ -46,94 +110,9 @@ end
 s = serial('COM8');
 set(s,'BaudRate',115200);
 fopen(s);
-
-%% -- prepare plot ----------------------------------------------------- %%
-% initialize values
-DCInfrared = zeros(1,nbOfSamplesInWin);
-ACInfrared = zeros(1,nbOfSamplesInWin);
-DCRed = zeros(1,nbOfSamplesInWin);
-ACRed = zeros(1,nbOfSamplesInWin);
-time = [0:nbOfSamplesInWin-1].*1/freq_Hz;
-topTrackACI = zeros(1,nbOfSamplesInWin);
-bottomTrackACI = zeros(1,nbOfSamplesInWin);
-pulseSignal = zeros(1,nbOfSamplesInWin);
-ttOxyIRed = zeros(1,nbOfSamplesInWin);
-btOxyIRed = zeros(1,nbOfSamplesInWin);
-ttOxyRed = zeros(1,nbOfSamplesInWin);               
-btOxyRed = zeros(1,nbOfSamplesInWin);
-
-% prepare plot
-fig = figure;
-set(fig,'Position',screensize);
-
-if showPulseDetectionPlot || showOxyDetectionPlot
-    subplot(211)
-end
-hlDCInfrared = line(time, DCInfrared);
-hlACInfrared = line(time, ACInfrared);
-hlDCRed = line(time, DCRed);
-hlACRed = line(time, ACRed);
-
-hlDCInfrared.Color = 'b';
-hlACInfrared.Color = 'c';
-hlDCRed.Color = 'r';
-hlACRed.Color = 'm';
-
-legend({'DC Infrared', 'AC Infrared', 'DC Red', 'AC Red'})
-grid on;
-xlabel('time [s]');
-ylabel('measured voltage [V]')
-% ylim(yLimPlot);
-
-% tracker plot
-if showPulseDetectionPlot
-    % prepare plot
-    subplot(212)
-    hold on;
-    hlACInfrared = line(time, ACInfrared);
-    hlTopTrack = line(time, topTrackACI);
-    hlBottomTrack = line(time, bottomTrackACI);
-    hlPulseSignal = line(time,pulseSignal);
-    hold off,
-    
-    hlTopTrack.Color = 'k';
-    hlBottomTrack.Color = 'k';
-    hlPulseSignal.Color = 'r';
-    legend({'DC Infrared', 'top', 'bottom', 'pulse signal'})
-    grid on;
-    xlabel('time [s]');
-    ylabel('measured voltage [V]')
-%     ylim(yLimPlot);
-    
-elseif showOxyDetectionPlot
-    
-    % prepare plot
-    subplot(212)
-    hold on;
-    hlACInfrared = line(time, ACInfrared);
-    hlACRed = line(time, ACRed);
-    
-    hlOxyTopTrackIRed = line(time, ttOxyIRed);
-    hlOxyBottomTrackIRed = line(time, btOxyIRed);
-    hlOxyTopTrackRed = line(time, ttOxyRed);
-    hlOxyBottomTrackRed = line(time,btOxyRed);
-    hold off,    
-    
-    hlACInfrared.Color = 'c';
-    hlACRed.Color = 'm';
-        
-    hlOxyTopTrackIRed.Color = 'k';
-    hlOxyBottomTrackIRed.Color = 'k';
-    hlOxyTopTrackRed.Color = 'k';
-    hlOxyBottomTrackRed.Color = 'k';
-    legend({'AC Infrared', 'AC Red', 'top IR', 'bottom IR', 'top R', 'bottom IR'})
-    grid on;
-    xlabel('time [s]');
-    ylabel('measured voltage [V]')  
-%     ylim(yLimPlot);
-    
-end
      
+tic;
+
 %% -- calculate -------------------------------------------------------- %%
 n = 0; % initialize
 
@@ -141,107 +120,88 @@ while 1
         
     %% prepare
     n = n+1;
-       
-    % raw data
-    DCInfrared(1) = [];
-    ACInfrared(1) = [];
-    DCRed(1) = [];
-    ACRed(1) = [];
 
     %%  get raw data
     fprintf(s,'*IDN?');
+    timeToc(n) = toc;
     out = fscanf(s);   
     val = textscan(out, '%d,%d,%d,%d');    
     
     if isempty(val{4}) 
-        DCInfrared(end+1) = 0;
-        ACInfrared(end+1) = 0;
-        DCRed(end+1) = 0;
-        ACRed(end+1) = 0;         
+        DCInfrared(n) = 0;
+        ACInfrared(n) = 0;
+        DCRed(n) = 0;
+        ACRed(n) = 0;         
     else
-
-    %% update values
-    % raw data
-    DCInfrared(end+1) = double(val{1}).*stepSizeADC;
-    ACInfrared(end+1) = double(val{2}).*stepSizeADC;
-    DCRed(end+1) = double(val{3}).*stepSizeADC;
-    ACRed(end+1) = double(val{4}).*stepSizeADC;  
-    
+        % raw data
+        DCInfrared(n) = double(val{1}).*stepSizeADC;
+        ACInfrared(n) = double(val{2}).*stepSizeADC;
+        DCRed(n) = double(val{3}).*stepSizeADC;
+        ACRed(n) = double(val{4}).*stepSizeADC;     
     end
+    
+    %% update timing
+    timeStamp_s(n) = n./freq_Hz;
+    timPlotStart_s = max(timeStamp_s(n)-timWinPlot_s,0);
     
     %% calculate oxygen saturation
-	[oxySat, btSigIRed, ttSigIRed, btSigRed, ttSigRed ] = calcOxySat(DCInfrared(end),ACInfrared(end),DCRed(end),ACRed(end));
-	% [oxySat, rmsValACIRed, rmsValACRed] = calcOxySatRMS(DCInfrared(end),ACInfrared(end),DCRed(end),ACRed(end));
+	[oxySat(n), btOxyIRed(n), ttOxyIRed(n), btOxyRed(n), ttOxyRed(n) ] = calcOxySat(DCInfrared(n),ACInfrared(n),DCRed(n),ACRed(n));
         
     % calc to percent
-    oxySat = round(100*oxySat);
+    oxySat(n) = round(100*oxySat(n));
 
-    if isnan(oxySat)
-        oxySat = 0;
+    if isnan(oxySat(n))
+        oxySat(n) = 0;
     else
-        oxySat = min(oxySat,100);
-    end
-
-    % update tracker values
-    ttOxyIRed(1) = [];
-    btOxyIRed(1) = [];
-    ttOxyRed(1) = [];
-    btOxyRed(1) = [];    
-    ttOxyIRed(end+1) = ttSigIRed;
-    btOxyIRed(end+1) = btSigIRed; 
-    ttOxyRed(end+1) = ttSigRed;
-    btOxyRed(end+1) = btSigRed;        
+        oxySat(n) = min(oxySat(n),100);
+    end   
     
     %% calculate pulse
-    timeStamp_s = n./freq_Hz;
-    [estimatedPulse, pulseSig, bottomTrackSig, topTrackSig]  = calcPulse(ACInfrared(end),timeStamp_s);
+    [estimatedPulse(n), pulseSig, bottomTrackACI(n), topTrackACI(n)]  = calcPulse(ACInfrared(n),timeStamp_s(n));
     
-    % update tracker values
-    topTrackACI(1) = [];
-    bottomTrackACI(1) = [];
-    pulseSignal(1) = [];
-    topTrackACI(end+1) = topTrackSig;
-    bottomTrackACI(end+1) = bottomTrackSig; 
-    pulseSignal(end+1) = pulseSig;
+    % convert to double
+    pulseSignal(n) = double(pulseSig);
     
-    tic;
     %% update graphes
     if mod(n,updatePlotNbSample) == 0
-        shg;   
         
         % update title
         if showPulseDetectionPlot || showOxyDetectionPlot
             subplot(211);
         end
-        title(['Pulse: ' num2str(estimatedPulse) ' - OxySat: ' num2str(oxySat) ' %']);  
         
-        % update graph
-        set(hlDCInfrared,'ydata',DCInfrared);
-        set(hlACInfrared,'ydata',ACInfrared);
-        set(hlDCRed,'ydata',DCRed);
-        set(hlACRed,'ydata',ACRed);
-                
+        title(['Pulse: ' num2str(estimatedPulse(n)) ' - OxySat: ' num2str(oxySat(n)) ' %']);
+        
+        addpoints(hlDCInfrared,timeStamp_s(n-updatePlotNbSample+1:n),DCInfrared(n-updatePlotNbSample+1:n));
+        addpoints(hlACInfrared,timeStamp_s(n-updatePlotNbSample+1:n),ACInfrared(n-updatePlotNbSample+1:n));
+        addpoints(hlDCRed,timeStamp_s(n-updatePlotNbSample+1:n),DCRed(n-updatePlotNbSample+1:n));
+        addpoints(hlACRed,timeStamp_s(n-updatePlotNbSample+1:n),ACRed(n-updatePlotNbSample+1:n));
+        
+        xlim([timPlotStart_s timeStamp_s(n)]);
+
         if showPulseDetectionPlot
-            subplot(2,1,2)
-            % set tracker
-            set(hlTopTrack,'ydata',topTrackACI);
-            set(hlBottomTrack,'ydata',bottomTrackACI);   
-            set(hlPulseSignal, 'ydata', pulseSignal);
-            set(hlACInfrared,'ydata',ACInfrared);
-            set(hlACRed,'ydata',ACRed);
+            subplot(2,1,2)           
+            addpoints(hlACInfrared2,timeStamp_s(n-updatePlotNbSample+1:n),ACInfrared(n-updatePlotNbSample+1:n));          
+            addpoints(hlTopTrack,timeStamp_s(n-updatePlotNbSample+1:n),topTrackACI(n-updatePlotNbSample+1:n));
+            addpoints(hlBottomTrack,timeStamp_s(n-updatePlotNbSample+1:n),bottomTrackACI(n-updatePlotNbSample+1:n));
+            addpoints(hlPulseSignal,timeStamp_s(n-updatePlotNbSample+1:n),pulseSignal(n-updatePlotNbSample+1:n)); 
+            xlim([timPlotStart_s timeStamp_s(n)]);
+            
         elseif showOxyDetectionPlot
-            % set tracker
-            subplot(2,1,2)
-            set(hlOxyTopTrackIRed,'ydata',ttOxyIRed);
-            set(hlOxyBottomTrackIRed,'ydata',btOxyIRed);               
-            set(hlOxyTopTrackRed,'ydata',ttOxyRed);
-            set(hlOxyBottomTrackRed,'ydata',btOxyRed); 
-            set(hlACInfrared,'ydata',ACInfrared);
-            set(hlACRed,'ydata',ACRed);            
+            subplot(2,1,2)    
+            addpoints(hlACInfrared2,timeStamp_s(n-updatePlotNbSample+1:n),ACInfrared(n-updatePlotNbSample+1:n));
+            addpoints(hlACRed2,timeStamp_s(n-updatePlotNbSample+1:n),ACRed(n-updatePlotNbSample+1:n));                        
+            addpoints(hlOxyTopTrackIRed,timeStamp_s(n-updatePlotNbSample+1:n),ttOxyIRed(n-updatePlotNbSample+1:n));
+            addpoints(hlOxyBottomTrackIRed,timeStamp_s(n-updatePlotNbSample+1:n),btOxyIRed(n-updatePlotNbSample+1:n));
+            addpoints(hlOxyTopTrackRed,timeStamp_s(n-updatePlotNbSample+1:n),ttOxyRed(n-updatePlotNbSample+1:n));
+            addpoints(hlOxyBottomTrackRed,timeStamp_s(n-updatePlotNbSample+1:n),btOxyRed(n-updatePlotNbSample+1:n));
+            xlim([timPlotStart_s timeStamp_s(n)]);
+            
         end   
+        
+        drawnow;
 
     end
-    
     
     %% display raw data
     % disp(['IRED: ' num2str(DCInfrared(end)) ' - ' num2str(ACInfrared(end)) ' RED: ' num2str(DCRed(end)) ' - ' num2str(ACRed(end))]);       

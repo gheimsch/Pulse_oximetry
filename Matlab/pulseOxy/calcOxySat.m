@@ -27,13 +27,12 @@ initValOxy = 0;
 initValBottom = 10;
 initValTop = 0;
 % step size of bottom & top tracker
-% stepSizeBottom = 0.006;
-% stepSizeTop = 0.006;
-stepSizeBottom = 0.002;
-stepSizeTop = 0.002;
+stepSizeBottom = 0.0008; %0.002;
+stepSizeTop = 0.0008;
 % maximal and minimal value bottom & top tracker shall have
 maxLimit = 2;
-minLimit = 1;
+minLimit = 0;
+trackDeltaLimit = 0.5; % limit delta, minLimit = maxLimit-trackDeltaLimit,
 
 %% initialize buffer
 if isempty(initBuffer)
@@ -62,14 +61,18 @@ bottomTrackSigACRed = calcBottomTracker(ACRed,bottomTrackSigACRed,stepSizeBottom
 topTrackSigACRed = calcTopTracker(ACRed,topTrackSigACRed,stepSizeTop);
 
 % check max and min limit
-bottomTrackSigACIRed = max(minLimit,bottomTrackSigACIRed);
-bottomTrackSigACIRed = min(maxLimit,bottomTrackSigACIRed);
 topTrackSigACIRed = max(minLimit,topTrackSigACIRed);
 topTrackSigACIRed = min(maxLimit,topTrackSigACIRed);
-bottomTrackSigACRed = max(minLimit,bottomTrackSigACRed);
-bottomTrackSigACRed = min(maxLimit,bottomTrackSigACRed);
 topTrackSigACRed = max(minLimit,topTrackSigACRed);
 topTrackSigACRed = min(maxLimit,topTrackSigACRed);
+
+minLimit = min(topTrackSigACRed,topTrackSigACIRed)-trackDeltaLimit;
+
+bottomTrackSigACIRed = max(minLimit,bottomTrackSigACIRed);
+bottomTrackSigACIRed = min(maxLimit,bottomTrackSigACIRed);
+bottomTrackSigACRed = max(minLimit,bottomTrackSigACRed);
+bottomTrackSigACRed = min(maxLimit,bottomTrackSigACRed);
+
 
 peakToPeakValACIRed = topTrackSigACIRed - bottomTrackSigACIRed;
 peakToPeakValACRed = topTrackSigACRed - bottomTrackSigACRed;

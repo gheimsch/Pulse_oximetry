@@ -8,26 +8,27 @@ persistent bottomTrackSig
 persistent topTrackSig
 persistent lastTimeStamp
 persistent initTracker
-persistent FreqPulse_s
 persistent bufferFreqPulse_s
+persistent meanFreqPulse_s
 
 %% constants
 % initial value for bottam & top tracker
 initValBottom = 10;
 initValTop = 0;
 % step size of bottom & top tracker
-stepSizeBottom = 0.01; % 0.02
+stepSizeBottom = 0.005; %0.01; % 0.02
 stepSizeTop = 0.2;
 % maximal and minimal value bottom & top tracker shall have
 maxLimit = 3;
 minLimit = 0;
+trackDeltaLimit = 0.5; % limit delta, minLimit = maxLimit-trackDeltaLimit,
 
 % pulse detection
 threshCompPulse = 0.1; % comparator pulse detection
-threshPulseZeroAfter_s = 10;
+threshPulseZeroAfter_s = 6;
 
 initValPulseBuffer = 0;
-winSizePulseBuffer = 129; % is about 15 seconds for fs = 8.6 Hz
+winSizePulseBuffer = 16; % is about 15 seconds for fs = 10 Hz
 
 %% initialize initTracker
 if isempty(initTracker)
@@ -35,7 +36,8 @@ if isempty(initTracker)
     topTrackSig = initValTop;
     lastTimeStamp = 0;
     initTracker = true;
-    FreqPulse_s = 0;
+%     FreqPulse_s = 0;
+    meanFreqPulse_s = 0;
     bufferFreqPulse_s = initMeanWin(initValPulseBuffer,winSizePulseBuffer);
 end
 
@@ -44,10 +46,14 @@ bottomTrackSig = calcBottomTracker(ACIRed,bottomTrackSig,stepSizeBottom);
 topTrackSig = calcTopTracker(ACIRed,topTrackSig,stepSizeTop);
 
 % check max and min limit
-bottomTrackSig = max(minLimit,bottomTrackSig);
-bottomTrackSig = min(maxLimit,bottomTrackSig);
 topTrackSig = max(minLimit,topTrackSig);
 topTrackSig = min(maxLimit,topTrackSig);
+
+minLimit = topTrackSig-trackDeltaLimit;
+
+bottomTrackSig = max(minLimit,bottomTrackSig);
+bottomTrackSig = min(maxLimit,bottomTrackSig);
+
 
 %% extract pulse signal
 pulseSignal = topTrackSig - bottomTrackSig;
@@ -65,15 +71,15 @@ if flagChangeStateUp
     lastTimeStamp = timeStamp_s;
     % update pulse frequency
     TPulse_s = timeSinceLastTimeStamp;
-    FreqPulse_s = 1./TPulse_s;        
+    FreqPulse_s = 1./TPulse_s;  
+    % smooth pulse detection
+    [meanFreqPulse_s,bufferFreqPulse_s] = calcMeanWin(FreqPulse_s,bufferFreqPulse_s);    
+        
 elseif timeSinceLastTimeStamp > threshPulseZeroAfter_s
-    FreqPulse_s = 0;
+    meanFreqPulse_s = 0;
 else
     % do nothing
 end
-
-%% smooth pulse detection
-[meanFreqPulse_s,bufferFreqPulse_s] = calcMeanWin(FreqPulse_s,bufferFreqPulse_s);
 
 % disp(['Pulse [s]: ' num2str(meanFreqPulse_s)]);
 

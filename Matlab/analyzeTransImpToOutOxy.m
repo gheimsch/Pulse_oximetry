@@ -108,17 +108,19 @@ hold on;
 plot(time{1},data{1})
 plot(time{3},data{3})
 plot(time{4},data{4})
+plot(time{1},yAmpl{1},'LineWidth',1.5)
 plot(time{2},data{2},'LineWidth',1.5)
+
 hold off;
 grid on;
-legend({'trasnImp', 'lp', 'notch', 'output'})
+legend({'trasnImp', 'lp', 'notch', 'simulation-output', 'output'})
 title(figTitle)
 ylim([-0.2 0.2])
 xlim([time{1}(1) time{1}(end)]);
 xlabel('time [s]')
 ylabel('measured voltag [V]')
 
-saveas(gcf,'measuredSignal_oxySensor.png');
+saveas(gcf,'measuredSignal_oxySensor_2.png');
 
 
 

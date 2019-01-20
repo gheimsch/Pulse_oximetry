@@ -12,7 +12,7 @@ addpath fct
 nbOfSamplesInWin = 200;
 updatePlotNbSample = 20;
 
-showPulseDetectionPlot = false;
+showPulseDetectionPlot = true;
 showOxyDetectionPlot = false;
 
 % set y-Lim for plots
@@ -83,7 +83,7 @@ legend({'DC Infrared', 'AC Infrared', 'DC Red', 'AC Red'})
 grid on;
 xlabel('time [s]');
 ylabel('measured voltage [V]')
-ylim(yLimPlot);
+% ylim(yLimPlot);
 
 % tracker plot
 if showPulseDetectionPlot
@@ -103,7 +103,7 @@ if showPulseDetectionPlot
     grid on;
     xlabel('time [s]');
     ylabel('measured voltage [V]')
-    ylim(yLimPlot);
+%     ylim(yLimPlot);
     
 elseif showOxyDetectionPlot
     
@@ -130,7 +130,7 @@ elseif showOxyDetectionPlot
     grid on;
     xlabel('time [s]');
     ylabel('measured voltage [V]')  
-    ylim(yLimPlot);
+%     ylim(yLimPlot);
     
 end
      

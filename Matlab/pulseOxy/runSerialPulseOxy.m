@@ -12,8 +12,8 @@ addpath fct
 nbOfSamplesInWin = 200;
 updatePlotNbSample = 20;
 
-showPulseDetectionPlot = false;
-showOxyDetectionPlot = true;
+showPulseDetectionPlot = true;
+showOxyDetectionPlot = false;
 
 %% -- CONSTANTS -------------------------------------------------------- %%
 % figure constants
@@ -150,17 +150,28 @@ while 1
     % calc to percent
     oxySat(n) = round(100*oxySat(n));
 
+    %% plausibility oxy sat
     if isnan(oxySat(n))
         oxySat(n) = 0;
     else
         oxySat(n) = min(oxySat(n),100);
     end   
-    
+        
     %% calculate pulse
     [estimatedPulse(n), pulseSig, bottomTrackACI(n), topTrackACI(n)]  = calcPulse(ACInfrared(n),timeStamp_s(n));
     
     % convert to double
     pulseSignal(n) = double(pulseSig);
+    
+    %% plausibility pulse
+    if estimatedPulse(n) < 30
+        oxySat(n) = 0;
+        estimatedPulse(n) = 0;      
+    elseif estimatedPulse(n) > 200
+        oxySat(n) = 0;
+        estimatedPulse(n) = 0;
+    end
+        
     
     %% update graphes
     if mod(n,updatePlotNbSample) == 0

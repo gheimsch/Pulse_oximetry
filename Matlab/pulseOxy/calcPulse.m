@@ -24,7 +24,9 @@ minLimit = 0;
 trackDeltaLimit = 0.5; % limit delta, minLimit = maxLimit-trackDeltaLimit,
 
 % pulse detection
-threshCompPulse = 0.1; % comparator pulse detection
+% threshCompPulse = 0.025; % comparator pulse detection
+threshPulseHystOffToOn = 0.02; % 0.03
+threshPulseHystOnToOff = 0.01;
 threshPulseZeroAfter_s = 6;
 
 initValPulseBuffer = 0;
@@ -57,9 +59,14 @@ bottomTrackSig = min(maxLimit,bottomTrackSig);
 
 %% extract pulse signal
 pulseSignal = topTrackSig - bottomTrackSig;
-pulseSignal = 4*abs(pulseSignal);
+pulseSignal = abs(pulseSignal);
+
+% btSig = pulseSignal;
+
 % comparator
-[~, flagChangeStateUp] = calcComp(pulseSignal, threshCompPulse);
+% [~, flagChangeStateUp] = calcComp(pulseSignal, threshCompPulse);
+[~, flagChangeStateUp] = calcHyst(pulseSignal, threshPulseHystOffToOn, threshPulseHystOnToOff);
+
 pulseSignal = flagChangeStateUp; 
 
 %% calculate pulse frequency
